@@ -1,0 +1,607 @@
+State,District,Crop,Season,Year,Soil Type,Area (acres),Yield (kg/acre),Avg. Rainfall (mm),Pesticide Name,Avg. Temperature (°C)
+Telangana,Jagitial,Groundnut,Kharif,2018,Clayey,30.5,825.1,510.5,MOP,29.1
+Telangana,Bhadradri Kothagudem,Turmeric,Kharif,2019,Alluvial Soil,188.71,915.7,957.2,Gypsum,30.8
+Telangana,Karimnagar,Soybean,Rabi,2024,Alluvial Soil,148.54,763.7,918.1,Calcium Nitrate,23.5
+Telangana,Peddapalli,Sugarcane,Rabi,2015,Alluvial Soil,189.86,33948.7,529.3,Calcium Nitrate,28.5
+Telangana,Kamareddy,Maize,Zaid,2017,Red Soil,13.24,835.1,627.5,Sulphur Dust,32.7
+Telangana,Vikarabad,Sesame,Zaid,2023,Alluvial Soil,36.84,523.9,889.5,DAP,26.0
+Telangana,Peddapalli,Turmeric,Zaid,2016,Loamy,164.54,591.6,829.0,Gypsum,27.4
+Telangana,Bhadradri Kothagudem,Cotton,Zaid,2024,Sandy,151.13,752.6,700.6,Sulphur Dust,19.6
+Telangana,Mancherial,Cotton,Rabi,2019,Clayey,197.85,432.4,1080.9,SSP,25.9
+Telangana,Nalgonda,Soybean,Zaid,2015,Clayey,3.2,443.5,1042.4,Rhizobium inoculant,29.8
+Telangana,Warangal,Paddy,Rabi,2023,Sandy,14.52,1826.8,855.0,Rhizobium inoculant,32.2
+Telangana,Hyderabad,Sesame,Rabi,2017,Red Soil,163.27,303.3,411.2,Compost,27.2
+Telangana,Mahbubnagar,Chillies,Rabi,2023,Red Soil,112.93,547.7,600.6,Calcium Nitrate,21.8
+Telangana,Hyderabad,Groundnut,Zaid,2020,Loamy,4.16,728.5,877.2,SSP,19.9
+Telangana,Mahbubnagar,Turmeric,Rabi,2018,Red Soil,84.67,1770.0,975.3,Compost,32.8
+Telangana,Peddapalli,Cotton,Kharif,2015,Loamy,78.33,250.8,872.7,DAP,22.0
+Telangana,Jagitial,Chillies,Zaid,2019,Red Soil,124.22,562.6,422.2,Urea,23.0
+Telangana,Karimnagar,Sesame,Zaid,2021,Sandy,32.24,568.5,844.2,Farmyard manure,33.5
+Telangana,Kamareddy,Groundnut,Kharif,2023,Loamy,3.36,980.3,1060.6,Gypsum,29.1
+Telangana,Mahbubnagar,Paddy,Rabi,2017,Red Soil,40.21,1965.9,1016.5,Farmyard manure,31.7
+Telangana,Jagtial,Sugarcane,Rabi,2023,Black Soil,101.21,21541.1,661.7,Boron,21.1
+Telangana,Mancherial,Sesame,Zaid,2017,Sandy,176.89,202.0,910.3,Zinc Sulphate,21.7
+Telangana,Jagitial,Turmeric,Rabi,2021,Sandy,71.28,1936.6,434.4,Gypsum,19.2
+Telangana,Mancherial,Turmeric,Rabi,2018,Loamy,61.27,1388.3,463.9,DAP,23.5
+Telangana,Khammam,Sugarcane,Zaid,2015,Sandy,164.4,14513.8,778.6,Rhizobium inoculant,21.1
+Telangana,Mancherial,Sugarcane,Kharif,2024,Loamy,187.53,33377.1,999.0,Zinc Sulphate,20.6
+Telangana,Jagitial,Sugarcane,Kharif,2016,Alluvial Soil,61.13,34287.6,514.6,Zinc Sulphate,34.5
+Telangana,Karimnagar,Chillies,Kharif,2020,Sandy,32.83,1139.3,711.6,Zinc Sulphate,33.3
+Telangana,Mancherial,Chillies,Kharif,2022,Clayey,143.7,848.4,985.0,MOP,24.3
+Telangana,Bhadradri Kothagudem,Turmeric,Zaid,2020,Loamy,37.68,1734.6,1090.0,Compost,21.9
+Telangana,Nalgonda,Maize,Kharif,2016,Alluvial Soil,90.86,928.7,423.5,Copper Fungicide,28.3
+Telangana,Peddapalli,Chillies,Kharif,2018,Black Soil,152.84,1069.0,970.0,Urea,19.3
+Telangana,Suryapet,Sunflower,Rabi,2017,Black Soil,69.92,759.4,486.0,Urea,24.1
+Telangana,Warangal,Soybean,Kharif,2015,Loamy,141.51,595.7,428.9,Zinc Sulphate,19.6
+Telangana,Karimnagar,Maize,Rabi,2019,Alluvial Soil,117.98,1497.7,738.0,Calcium Nitrate,26.3
+Telangana,Jagtial,Sugarcane,Rabi,2016,Sandy,64.48,23431.4,881.5,Copper Fungicide,34.5
+Telangana,Nalgonda,Paddy,Kharif,2018,Loamy,20.65,1062.5,660.1,DAP,25.8
+Telangana,Warangal,Chillies,Rabi,2020,Red Soil,31.41,1102.2,917.2,DAP,25.9
+Telangana,Medak,Soybean,Kharif,2021,Clayey,195.64,414.5,896.4,SSP,23.0
+Telangana,Hyderabad,Cotton,Rabi,2020,Black Soil,113.23,758.7,527.7,Boron,20.5
+Telangana,Jagitial,Turmeric,Zaid,2024,Sandy,16.51,979.2,889.2,Copper Fungicide,29.5
+Telangana,Warangal,Soybean,Kharif,2018,Clayey,180.23,702.0,446.1,Neem Oil,30.1
+Telangana,Nirmal,Cotton,Zaid,2023,Loamy,153.57,512.2,525.0,Copper Fungicide,18.5
+Telangana,Mancherial,Turmeric,Zaid,2023,Alluvial Soil,148.58,1431.6,638.6,Rhizobium inoculant,27.5
+Telangana,Kamareddy,Paddy,Rabi,2018,Black Soil,154.87,949.9,941.6,Sulphur Dust,23.9
+Telangana,Siddipet,Maize,Rabi,2018,Black Soil,125.72,961.4,924.2,Neem Oil,21.9
+Telangana,Bhadradri Kothagudem,Cotton,Rabi,2017,Alluvial Soil,190.55,367.1,648.3,Sulphur Dust,25.4
+Telangana,Mancherial,Sesame,Rabi,2021,Red Soil,177.94,317.0,697.7,Rhizobium inoculant,26.2
+Telangana,Medak,Soybean,Rabi,2020,Alluvial Soil,92.96,631.9,405.4,Neem Oil,33.0
+Telangana,Nirmal,Sesame,Kharif,2023,Sandy,75.82,671.4,594.5,DAP,31.2
+Telangana,Karimnagar,Chillies,Zaid,2023,Clayey,131.94,301.2,521.4,DAP,21.7
+Telangana,Hyderabad,Turmeric,Rabi,2022,Clayey,169.68,1113.3,407.7,SSP,32.1
+Telangana,Mahbubnagar,Maize,Rabi,2023,Black Soil,166.71,1515.3,841.0,SSP,21.3
+Telangana,Warangal,Cotton,Zaid,2022,Clayey,54.66,271.2,523.9,Boron,21.8
+Telangana,Mancherial,Cotton,Kharif,2021,Alluvial Soil,53.67,231.3,801.5,Boron,25.3
+Telangana,Medak,Turmeric,Zaid,2017,Red Soil,1.43,1185.0,402.8,Magnesium Sulphate,29.1
+Telangana,Adilabad,Sunflower,Zaid,2017,Black Soil,178.89,725.1,548.0,Compost,23.5
+Telangana,Bhadradri Kothagudem,Groundnut,Kharif,2015,Clayey,198.59,585.3,635.7,Urea,31.5
+Telangana,Mancherial,Soybean,Zaid,2017,Clayey,166.45,333.4,766.8,Calcium Nitrate,20.5
+Telangana,Nizamabad,Paddy,Kharif,2018,Black Soil,156.26,2100.2,1076.6,MOP,20.3
+Telangana,Bhadradri Kothagudem,Maize,Zaid,2017,Sandy,162.35,1246.1,925.5,Calcium Nitrate,21.1
+Telangana,Kamareddy,Chillies,Kharif,2022,Clayey,36.59,519.8,960.4,Neem Oil,27.8
+Telangana,Vikarabad,Paddy,Rabi,2018,Clayey,7.06,1475.4,851.6,Magnesium Sulphate,24.0
+Telangana,Nizamabad,Sesame,Rabi,2022,Sandy,79.38,381.3,807.7,Rhizobium inoculant,30.5
+Telangana,Nizamabad,Chillies,Kharif,2016,Black Soil,176.09,836.0,544.8,Zinc Sulphate,24.5
+Telangana,Jagitial,Sesame,Kharif,2019,Black Soil,166.29,441.8,902.5,Zinc Sulphate,22.0
+Telangana,Jagtial,Sesame,Kharif,2016,Alluvial Soil,48.62,580.2,753.4,Zinc Sulphate,22.4
+Telangana,Nalgonda,Chillies,Kharif,2017,Sandy,163.13,785.4,655.7,SSP,27.9
+Telangana,Mancherial,Sesame,Kharif,2023,Clayey,91.61,491.8,407.9,Boron,32.9
+Telangana,Jagtial,Paddy,Zaid,2019,Loamy,88.86,2014.7,1030.0,Compost,31.8
+Telangana,Warangal,Sugarcane,Rabi,2023,Clayey,70.14,20832.3,607.7,Copper Fungicide,32.7
+Telangana,Nalgonda,Sesame,Zaid,2015,Alluvial Soil,47.34,213.4,642.5,Rhizobium inoculant,24.5
+Telangana,Khammam,Groundnut,Rabi,2022,Sandy,92.56,831.6,452.0,Zinc Sulphate,24.9
+Telangana,Nirmal,Groundnut,Zaid,2018,Alluvial Soil,77.93,490.9,982.6,Urea,19.1
+Telangana,Bhadradri Kothagudem,Sesame,Kharif,2019,Black Soil,196.73,432.3,716.8,Urea,22.9
+Telangana,Jagtial,Chillies,Rabi,2015,Sandy,99.25,653.5,470.8,Farmyard manure,26.5
+Telangana,Siddipet,Paddy,Rabi,2023,Alluvial Soil,28.06,1925.0,928.6,Gypsum,20.5
+Telangana,Bhadradri Kothagudem,Sesame,Kharif,2016,Black Soil,194.65,397.2,705.2,Farmyard manure,30.7
+Telangana,Siddipet,Paddy,Zaid,2023,Sandy,40.1,1109.0,655.3,Gypsum,19.1
+Telangana,Bhadradri Kothagudem,Sesame,Kharif,2018,Clayey,109.3,266.6,900.5,Urea,34.4
+Telangana,Nizamabad,Turmeric,Zaid,2018,Sandy,47.39,1719.5,646.5,MOP,18.6
+Telangana,Vikarabad,Paddy,Kharif,2021,Loamy,35.51,926.2,777.4,MOP,24.6
+Telangana,Hyderabad,Maize,Rabi,2024,Alluvial Soil,197.47,1263.8,550.3,Calcium Nitrate,32.2
+Telangana,Jagitial,Turmeric,Kharif,2019,Red Soil,85.6,1018.4,490.0,Sulphur Dust,23.4
+Telangana,Suryapet,Sugarcane,Rabi,2017,Black Soil,175.85,28082.4,893.9,Rhizobium inoculant,23.5
+Telangana,Suryapet,Paddy,Kharif,2016,Sandy,53.83,1079.9,1072.1,Farmyard manure,29.6
+Telangana,Jagitial,Turmeric,Zaid,2020,Alluvial Soil,158.53,1856.3,932.2,Urea,22.2
+Telangana,Mancherial,Chillies,Rabi,2018,Sandy,62.73,765.3,800.3,Neem Oil,34.6
+Telangana,Khammam,Paddy,Kharif,2021,Black Soil,92.07,941.3,574.2,Urea,31.1
+Telangana,Kamareddy,Cotton,Kharif,2015,Alluvial Soil,166.69,562.3,454.9,MOP,30.6
+Telangana,Adilabad,Soybean,Zaid,2018,Loamy,3.04,355.9,511.0,Calcium Nitrate,34.3
+Telangana,Mancherial,Paddy,Kharif,2020,Clayey,115.52,1775.3,833.1,Zinc Sulphate,23.5
+Telangana,Mancherial,Sunflower,Rabi,2019,Alluvial Soil,192.22,536.3,445.2,Farmyard manure,31.5
+Telangana,Khammam,Paddy,Rabi,2023,Loamy,1.69,1505.1,476.7,MOP,25.7
+Telangana,Nizamabad,Chillies,Zaid,2017,Black Soil,74.76,1119.7,600.8,Urea,24.1
+Telangana,Bhadradri Kothagudem,Soybean,Zaid,2018,Red Soil,102.0,653.5,783.0,Gypsum,32.3
+Telangana,Jagitial,Chillies,Rabi,2018,Black Soil,153.69,888.3,423.8,Compost,32.8
+Telangana,Suryapet,Maize,Kharif,2018,Clayey,25.85,1310.4,697.8,Compost,27.3
+Telangana,Nalgonda,Sesame,Zaid,2024,Clayey,139.99,656.1,444.4,Rhizobium inoculant,22.2
+Telangana,Hyderabad,Sunflower,Zaid,2018,Black Soil,159.98,819.0,878.7,Sulphur Dust,33.0
+Telangana,Suryapet,Groundnut,Kharif,2024,Clayey,45.97,560.2,758.5,MOP,32.1
+Telangana,Jagitial,Maize,Rabi,2019,Clayey,2.58,1479.9,1056.4,Rhizobium inoculant,32.2
+Telangana,Mancherial,Turmeric,Kharif,2018,Clayey,88.84,1742.8,619.6,Gypsum,34.4
+Telangana,Jagitial,Turmeric,Zaid,2016,Clayey,36.66,1492.7,462.8,Neem Oil,28.3
+Telangana,Jagtial,Paddy,Rabi,2022,Red Soil,47.15,2007.7,961.3,MOP,32.4
+Telangana,Bhadradri Kothagudem,Sunflower,Kharif,2022,Loamy,165.06,345.3,711.0,Copper Fungicide,20.0
+Telangana,Nizamabad,Groundnut,Kharif,2018,Alluvial Soil,116.43,569.9,714.7,DAP,22.3
+Telangana,Nirmal,Groundnut,Zaid,2024,Clayey,136.87,870.0,936.0,Urea,23.9
+Telangana,Jagtial,Sugarcane,Kharif,2021,Sandy,187.37,12701.6,809.2,Boron,21.8
+Telangana,Khammam,Maize,Rabi,2016,Alluvial Soil,125.46,1557.1,583.4,Urea,22.3
+Telangana,Nalgonda,Groundnut,Kharif,2022,Red Soil,68.19,488.3,987.5,MOP,22.3
+Telangana,Kamareddy,Soybean,Rabi,2015,Alluvial Soil,53.7,580.7,652.8,Gypsum,22.1
+Telangana,Siddipet,Sunflower,Kharif,2019,Sandy,24.49,603.2,920.5,DAP,21.2
+Telangana,Nirmal,Turmeric,Kharif,2024,Black Soil,151.28,1775.5,945.3,Boron,30.8
+Telangana,Adilabad,Soybean,Rabi,2020,Clayey,151.64,438.8,822.4,Magnesium Sulphate,19.3
+Telangana,Jagitial,Groundnut,Kharif,2017,Sandy,97.28,844.3,605.9,Boron,24.6
+Telangana,Medak,Soybean,Zaid,2018,Sandy,117.41,615.1,892.6,Urea,31.5
+Telangana,Rangareddy,Paddy,Zaid,2023,Red Soil,39.03,1192.2,402.9,Farmyard manure,26.8
+Telangana,Mahbubnagar,Chillies,Kharif,2015,Red Soil,84.36,401.5,552.6,Zinc Sulphate,31.8
+Telangana,Medak,Sesame,Kharif,2019,Black Soil,185.6,213.3,446.3,Zinc Sulphate,18.4
+Telangana,Nizamabad,Cotton,Rabi,2019,Clayey,58.99,375.7,459.6,Sulphur Dust,33.0
+Telangana,Khammam,Sesame,Rabi,2016,Black Soil,11.52,395.6,933.1,Magnesium Sulphate,19.5
+Telangana,Adilabad,Sesame,Zaid,2017,Red Soil,81.92,250.4,952.7,Farmyard manure,24.4
+Telangana,Nirmal,Sunflower,Zaid,2019,Red Soil,22.22,525.3,560.7,Urea,27.5
+Telangana,Mancherial,Chillies,Rabi,2021,Black Soil,105.28,935.2,733.7,Compost,32.4
+Telangana,Rangareddy,Groundnut,Zaid,2022,Loamy,62.29,560.1,766.5,DAP,18.5
+Telangana,Vikarabad,Sesame,Rabi,2023,Sandy,109.82,507.6,728.7,SSP,33.8
+Telangana,Adilabad,Cotton,Zaid,2016,Black Soil,180.09,658.1,501.2,Sulphur Dust,18.2
+Telangana,Nirmal,Turmeric,Zaid,2023,Black Soil,79.66,952.2,640.3,MOP,19.9
+Telangana,Bhadradri Kothagudem,Sugarcane,Zaid,2017,Clayey,123.33,31125.1,674.5,Rhizobium inoculant,29.4
+Telangana,Mancherial,Sugarcane,Kharif,2021,Alluvial Soil,73.32,19777.5,1037.9,Boron,29.7
+Telangana,Jagtial,Groundnut,Rabi,2024,Clayey,94.95,443.0,812.2,Magnesium Sulphate,28.0
+Telangana,Medak,Paddy,Kharif,2018,Loamy,166.89,1783.0,797.6,Neem Oil,26.6
+Telangana,Siddipet,Maize,Zaid,2020,Loamy,185.38,1446.3,1095.7,Copper Fungicide,21.8
+Telangana,Mancherial,Turmeric,Rabi,2017,Loamy,14.38,1931.4,553.9,Zinc Sulphate,22.3
+Telangana,Suryapet,Groundnut,Kharif,2024,Clayey,69.31,778.5,562.5,Neem Oil,21.6
+Telangana,Kamareddy,Soybean,Zaid,2024,Red Soil,162.65,352.3,974.6,Neem Oil,31.0
+Telangana,Nirmal,Paddy,Zaid,2024,Sandy,30.47,1047.0,823.5,Rhizobium inoculant,19.2
+Telangana,Adilabad,Sunflower,Rabi,2015,Clayey,154.27,427.4,857.3,DAP,28.9
+Telangana,Adilabad,Paddy,Zaid,2016,Loamy,131.79,1406.2,829.8,Magnesium Sulphate,23.7
+Telangana,Medak,Groundnut,Rabi,2015,Sandy,45.84,1173.8,693.9,Gypsum,19.5
+Telangana,Bhadradri Kothagudem,Maize,Rabi,2015,Loamy,135.03,873.6,1073.0,DAP,19.3
+Telangana,Siddipet,Maize,Kharif,2024,Alluvial Soil,124.28,1499.1,628.7,Rhizobium inoculant,33.7
+Telangana,Adilabad,Cotton,Zaid,2020,Red Soil,140.25,476.6,977.3,Calcium Nitrate,22.1
+Telangana,Mancherial,Soybean,Rabi,2024,Sandy,18.37,556.5,717.1,Urea,32.5
+Telangana,Karimnagar,Sesame,Rabi,2023,Clayey,154.59,264.8,423.1,Compost,32.2
+Telangana,Jagtial,Sugarcane,Rabi,2020,Alluvial Soil,10.09,11058.6,698.8,Compost,24.7
+Telangana,Suryapet,Soybean,Rabi,2015,Black Soil,102.9,851.5,1058.5,Copper Fungicide,24.5
+Telangana,Bhadradri Kothagudem,Turmeric,Rabi,2022,Alluvial Soil,150.97,640.4,864.2,Sulphur Dust,18.8
+Telangana,Jagitial,Chillies,Zaid,2016,Black Soil,4.16,963.7,643.3,Zinc Sulphate,32.7
+Telangana,Peddapalli,Chillies,Zaid,2019,Sandy,81.65,1185.8,819.7,Magnesium Sulphate,33.4
+Telangana,Siddipet,Sesame,Zaid,2024,Clayey,90.16,259.2,869.7,Copper Fungicide,31.8
+Telangana,Warangal,Sesame,Rabi,2022,Black Soil,124.59,586.6,703.1,Compost,34.7
+Telangana,Mahbubnagar,Turmeric,Rabi,2019,Black Soil,106.14,1495.1,786.4,Urea,29.3
+Telangana,Karimnagar,Groundnut,Kharif,2015,Loamy,158.96,970.5,741.3,Boron,23.6
+Telangana,Mancherial,Sesame,Rabi,2015,Clayey,91.96,650.4,589.7,Copper Fungicide,27.4
+Telangana,Nalgonda,Soybean,Kharif,2017,Black Soil,157.24,721.7,844.4,Urea,22.6
+Telangana,Adilabad,Sesame,Kharif,2015,Alluvial Soil,20.17,456.0,897.7,Farmyard manure,31.0
+Telangana,Kamareddy,Soybean,Zaid,2022,Red Soil,197.11,743.4,991.3,Urea,30.5
+Telangana,Adilabad,Sunflower,Rabi,2015,Black Soil,62.12,681.5,794.6,Gypsum,23.7
+Telangana,Vikarabad,Turmeric,Kharif,2020,Red Soil,80.95,1576.0,468.1,SSP,20.1
+Telangana,Siddipet,Sesame,Kharif,2020,Red Soil,46.5,277.2,1050.6,Boron,31.5
+Telangana,Warangal,Soybean,Kharif,2020,Black Soil,49.71,843.3,757.9,Boron,22.7
+Telangana,Rangareddy,Paddy,Zaid,2022,Clayey,127.61,1889.0,1025.1,DAP,21.8
+Telangana,Vikarabad,Sunflower,Kharif,2020,Loamy,70.8,737.8,706.3,Neem Oil,33.2
+Telangana,Mahbubnagar,Sesame,Kharif,2016,Black Soil,163.35,300.9,818.0,Farmyard manure,22.0
+Telangana,Khammam,Groundnut,Zaid,2015,Loamy,154.54,481.8,1099.2,Boron,30.3
+Telangana,Kamareddy,Groundnut,Kharif,2020,Sandy,179.02,935.5,1067.0,Compost,21.0
+Telangana,Mahbubnagar,Sugarcane,Kharif,2019,Black Soil,129.14,24437.8,995.1,Farmyard manure,28.5
+Telangana,Mahbubnagar,Cotton,Zaid,2023,Sandy,106.55,554.7,877.8,Rhizobium inoculant,28.4
+Telangana,Nalgonda,Sugarcane,Zaid,2015,Clayey,153.84,20416.0,702.6,Gypsum,31.8
+Telangana,Medak,Maize,Kharif,2022,Alluvial Soil,187.24,1644.3,452.4,Compost,23.9
+Telangana,Khammam,Chillies,Zaid,2020,Red Soil,71.31,248.6,444.3,Compost,21.9
+Telangana,Nirmal,Soybean,Rabi,2020,Sandy,39.26,365.2,546.5,SSP,23.5
+Telangana,Warangal,Maize,Kharif,2020,Clayey,73.62,1390.4,456.5,DAP,31.5
+Telangana,Vikarabad,Chillies,Zaid,2018,Alluvial Soil,79.4,780.4,1081.3,Calcium Nitrate,26.5
+Telangana,Rangareddy,Maize,Rabi,2022,Alluvial Soil,109.03,1732.1,935.1,Calcium Nitrate,28.1
+Telangana,Adilabad,Sugarcane,Zaid,2019,Clayey,35.38,13316.1,663.8,Copper Fungicide,20.7
+Telangana,Peddapalli,Sesame,Rabi,2021,Red Soil,185.94,561.0,736.6,MOP,19.3
+Telangana,Mancherial,Maize,Rabi,2023,Clayey,146.29,1662.0,902.0,Neem Oil,22.0
+Telangana,Kamareddy,Sugarcane,Kharif,2021,Sandy,161.32,33843.8,979.4,Urea,32.2
+Telangana,Jagitial,Turmeric,Zaid,2015,Black Soil,147.57,983.8,917.0,Farmyard manure,22.4
+Telangana,Hyderabad,Chillies,Zaid,2020,Sandy,114.25,1068.4,526.8,Rhizobium inoculant,23.6
+Telangana,Suryapet,Sunflower,Rabi,2016,Sandy,195.04,711.4,1007.2,Neem Oil,22.8
+Telangana,Rangareddy,Turmeric,Kharif,2020,Alluvial Soil,21.71,1267.4,923.3,MOP,25.6
+Telangana,Warangal,Turmeric,Rabi,2022,Alluvial Soil,15.61,1884.2,1087.7,MOP,31.6
+Telangana,Peddapalli,Sugarcane,Rabi,2018,Alluvial Soil,127.37,20955.5,483.4,Sulphur Dust,23.1
+Telangana,Mancherial,Sugarcane,Rabi,2024,Clayey,99.41,15664.9,924.1,Urea,32.9
+Telangana,Jagtial,Sugarcane,Kharif,2015,Sandy,71.3,33097.9,818.7,Urea,31.3
+Telangana,Nalgonda,Groundnut,Rabi,2021,Alluvial Soil,166.11,945.6,465.3,DAP,19.4
+Telangana,Siddipet,Paddy,Kharif,2021,Alluvial Soil,129.09,1669.4,729.6,Magnesium Sulphate,20.0
+Telangana,Khammam,Turmeric,Rabi,2017,Sandy,40.68,569.1,981.4,Gypsum,33.6
+Telangana,Peddapalli,Sesame,Kharif,2016,Loamy,99.23,384.7,591.6,Farmyard manure,28.1
+Telangana,Karimnagar,Sunflower,Kharif,2023,Black Soil,63.21,860.9,846.7,Farmyard manure,32.5
+Telangana,Jagitial,Cotton,Rabi,2019,Loamy,21.34,509.0,862.6,Zinc Sulphate,26.2
+Telangana,Mahbubnagar,Paddy,Rabi,2022,Loamy,31.91,1836.3,799.4,Urea,22.8
+Telangana,Bhadradri Kothagudem,Sunflower,Zaid,2023,Alluvial Soil,109.65,772.4,982.3,Compost,30.4
+Telangana,Jagtial,Groundnut,Kharif,2019,Red Soil,78.93,1128.9,674.3,SSP,24.3
+Telangana,Suryapet,Sunflower,Zaid,2022,Red Soil,100.19,424.6,798.5,SSP,32.5
+Telangana,Kamareddy,Cotton,Kharif,2018,Black Soil,55.52,711.9,943.1,Sulphur Dust,18.1
+Telangana,Hyderabad,Cotton,Kharif,2021,Red Soil,163.58,664.1,775.7,Magnesium Sulphate,20.8
+Telangana,Nizamabad,Sesame,Rabi,2021,Black Soil,85.85,363.0,647.1,DAP,22.8
+Telangana,Siddipet,Cotton,Rabi,2022,Sandy,44.95,506.6,499.3,Zinc Sulphate,34.0
+Telangana,Rangareddy,Cotton,Kharif,2019,Sandy,113.14,316.9,521.3,Magnesium Sulphate,31.0
+Telangana,Karimnagar,Sesame,Rabi,2024,Clayey,167.83,495.5,802.4,DAP,30.1
+Telangana,Hyderabad,Cotton,Kharif,2021,Black Soil,88.94,783.4,514.5,SSP,23.7
+Telangana,Warangal,Chillies,Kharif,2016,Sandy,3.52,1070.2,933.4,Farmyard manure,18.5
+Telangana,Mancherial,Soybean,Rabi,2024,Alluvial Soil,195.34,841.1,824.4,MOP,24.0
+Telangana,Rangareddy,Sunflower,Kharif,2023,Alluvial Soil,78.98,752.8,928.5,Compost,25.2
+Telangana,Vikarabad,Sugarcane,Kharif,2020,Red Soil,34.44,18226.0,626.9,Sulphur Dust,19.0
+Telangana,Nirmal,Sugarcane,Zaid,2024,Sandy,178.42,26322.1,455.5,Zinc Sulphate,33.0
+Telangana,Suryapet,Cotton,Rabi,2021,Loamy,44.65,509.2,439.3,Calcium Nitrate,21.2
+Telangana,Jagtial,Groundnut,Kharif,2020,Clayey,93.37,443.0,1030.1,Neem Oil,28.6
+Telangana,Warangal,Sugarcane,Zaid,2018,Loamy,60.74,24220.3,618.7,Calcium Nitrate,28.8
+Telangana,Jagitial,Turmeric,Zaid,2016,Red Soil,97.64,1591.4,536.6,Copper Fungicide,23.8
+Telangana,Rangareddy,Sesame,Kharif,2016,Red Soil,6.98,429.5,532.0,Rhizobium inoculant,24.7
+Telangana,Rangareddy,Turmeric,Zaid,2021,Sandy,45.36,1046.6,953.8,Sulphur Dust,34.2
+Telangana,Siddipet,Paddy,Kharif,2018,Sandy,131.6,1399.7,891.6,Farmyard manure,19.8
+Telangana,Hyderabad,Turmeric,Kharif,2024,Sandy,90.56,934.1,721.6,Compost,22.6
+Telangana,Nalgonda,Soybean,Kharif,2021,Black Soil,23.28,523.0,807.3,Copper Fungicide,32.8
+Telangana,Khammam,Cotton,Zaid,2022,Clayey,155.52,620.6,1056.8,DAP,25.6
+Telangana,Bhadradri Kothagudem,Cotton,Kharif,2018,Black Soil,155.72,518.8,1091.1,SSP,25.9
+Telangana,Rangareddy,Chillies,Zaid,2022,Sandy,120.7,409.2,669.9,SSP,25.8
+Telangana,Nalgonda,Paddy,Rabi,2019,Clayey,61.1,2174.7,657.9,Rhizobium inoculant,30.6
+Telangana,Hyderabad,Chillies,Zaid,2016,Red Soil,39.2,753.1,628.5,Copper Fungicide,22.4
+Telangana,Khammam,Chillies,Rabi,2023,Loamy,196.42,500.5,621.9,Neem Oil,28.5
+Telangana,Peddapalli,Sunflower,Zaid,2024,Sandy,126.95,752.1,658.6,Neem Oil,25.0
+Telangana,Nizamabad,Sugarcane,Rabi,2022,Red Soil,84.5,17129.8,684.7,Urea,30.4
+Telangana,Karimnagar,Soybean,Kharif,2016,Clayey,29.14,357.4,539.8,Neem Oil,25.5
+Telangana,Nizamabad,Paddy,Zaid,2023,Alluvial Soil,59.8,1498.8,1062.1,Copper Fungicide,29.9
+Telangana,Karimnagar,Soybean,Rabi,2021,Red Soil,109.9,311.3,951.3,Boron,26.3
+Telangana,Nalgonda,Sugarcane,Rabi,2024,Sandy,119.18,10265.2,427.5,Urea,25.8
+Telangana,Nalgonda,Sesame,Zaid,2023,Red Soil,161.0,385.6,1092.3,Zinc Sulphate,32.0
+Telangana,Vikarabad,Sunflower,Kharif,2024,Red Soil,197.59,838.5,774.5,Farmyard manure,33.9
+Telangana,Jagtial,Cotton,Kharif,2016,Alluvial Soil,136.29,449.1,727.9,MOP,23.1
+Telangana,Mahbubnagar,Sugarcane,Rabi,2022,Black Soil,158.38,24514.1,1001.4,SSP,28.8
+Telangana,Vikarabad,Chillies,Zaid,2016,Alluvial Soil,12.96,555.5,1045.5,Copper Fungicide,31.2
+Telangana,Nizamabad,Maize,Kharif,2020,Loamy,26.39,1790.2,676.9,Farmyard manure,18.7
+Telangana,Nirmal,Sunflower,Rabi,2016,Sandy,149.11,628.4,791.0,Rhizobium inoculant,26.5
+Telangana,Siddipet,Turmeric,Zaid,2023,Alluvial Soil,89.95,1313.7,618.0,Rhizobium inoculant,20.6
+Telangana,Nalgonda,Soybean,Kharif,2015,Alluvial Soil,77.41,645.6,793.0,Rhizobium inoculant,28.9
+Telangana,Hyderabad,Chillies,Zaid,2017,Loamy,8.74,1112.5,401.5,Farmyard manure,20.3
+Telangana,Hyderabad,Sesame,Zaid,2018,Alluvial Soil,159.49,250.2,1049.2,Sulphur Dust,18.9
+Telangana,Karimnagar,Sunflower,Zaid,2022,Sandy,95.15,446.6,835.1,Copper Fungicide,25.5
+Telangana,Suryapet,Sugarcane,Rabi,2024,Clayey,129.74,13568.8,862.1,Compost,27.8
+Telangana,Medak,Soybean,Kharif,2020,Clayey,151.65,611.7,766.6,Compost,29.9
+Telangana,Suryapet,Paddy,Kharif,2017,Sandy,184.21,1552.2,417.1,Compost,32.7
+Telangana,Karimnagar,Sunflower,Rabi,2023,Sandy,6.58,602.6,967.8,Copper Fungicide,21.9
+Telangana,Karimnagar,Maize,Zaid,2018,Clayey,164.29,1634.3,822.7,Urea,21.7
+Telangana,Jagitial,Sesame,Rabi,2015,Clayey,183.15,337.9,530.0,MOP,20.7
+Telangana,Khammam,Paddy,Rabi,2021,Alluvial Soil,10.16,2199.1,1001.3,MOP,23.8
+Telangana,Medak,Sesame,Rabi,2018,Loamy,30.09,385.7,931.1,Farmyard manure,34.8
+Telangana,Karimnagar,Sunflower,Rabi,2019,Black Soil,30.31,850.5,889.2,Farmyard manure,23.7
+Telangana,Mancherial,Chillies,Rabi,2022,Loamy,91.85,736.4,934.6,MOP,29.1
+Telangana,Vikarabad,Sugarcane,Rabi,2019,Sandy,5.41,18977.3,441.2,Zinc Sulphate,25.6
+Telangana,Nirmal,Soybean,Kharif,2022,Alluvial Soil,122.48,690.4,564.1,Compost,21.6
+Telangana,Hyderabad,Sunflower,Zaid,2024,Alluvial Soil,98.97,410.2,819.9,Copper Fungicide,29.7
+Telangana,Hyderabad,Cotton,Rabi,2019,Loamy,80.18,662.4,579.2,Sulphur Dust,21.6
+Telangana,Karimnagar,Cotton,Kharif,2015,Loamy,142.26,431.2,527.1,Urea,23.3
+Telangana,Nalgonda,Sunflower,Zaid,2017,Loamy,126.18,435.5,865.5,Neem Oil,20.6
+Telangana,Peddapalli,Maize,Kharif,2020,Black Soil,42.92,1120.2,799.2,Sulphur Dust,23.1
+Telangana,Medak,Paddy,Rabi,2022,Alluvial Soil,198.47,2197.2,970.0,Magnesium Sulphate,31.9
+Telangana,Medak,Sugarcane,Rabi,2024,Loamy,51.79,20323.5,698.8,MOP,18.1
+Telangana,Peddapalli,Turmeric,Rabi,2022,Red Soil,23.57,1948.2,851.7,SSP,27.3
+Telangana,Siddipet,Groundnut,Kharif,2019,Alluvial Soil,165.52,828.4,1041.5,Boron,34.1
+Telangana,Jagtial,Maize,Rabi,2017,Sandy,158.32,1147.7,523.1,Magnesium Sulphate,18.5
+Telangana,Medak,Chillies,Zaid,2021,Red Soil,113.38,351.7,728.0,DAP,32.8
+Telangana,Mahbubnagar,Cotton,Zaid,2016,Clayey,184.11,679.0,1084.7,Sulphur Dust,20.4
+Telangana,Mahbubnagar,Sesame,Rabi,2020,Loamy,26.43,338.0,725.8,Calcium Nitrate,33.2
+Telangana,Khammam,Turmeric,Kharif,2018,Sandy,194.02,1114.2,805.6,Farmyard manure,34.8
+Telangana,Vikarabad,Sunflower,Rabi,2019,Clayey,59.61,388.0,678.8,Gypsum,28.1
+Telangana,Suryapet,Sugarcane,Zaid,2020,Sandy,102.11,24872.8,859.3,Boron,20.5
+Telangana,Nizamabad,Sunflower,Zaid,2016,Alluvial Soil,95.75,303.9,467.4,Compost,32.0
+Telangana,Medak,Chillies,Kharif,2020,Clayey,109.05,940.8,995.4,Farmyard manure,34.1
+Telangana,Nalgonda,Cotton,Kharif,2018,Alluvial Soil,172.01,397.4,814.2,Zinc Sulphate,31.8
+Telangana,Peddapalli,Turmeric,Rabi,2015,Clayey,20.94,1677.3,978.0,SSP,24.5
+Telangana,Jagtial,Cotton,Rabi,2016,Sandy,128.63,552.1,928.1,Farmyard manure,24.0
+Telangana,Peddapalli,Chillies,Kharif,2020,Black Soil,21.08,420.8,714.3,Sulphur Dust,19.4
+Telangana,Khammam,Chillies,Kharif,2021,Alluvial Soil,56.04,938.3,447.8,Farmyard manure,32.4
+Telangana,Khammam,Sunflower,Kharif,2018,Clayey,14.04,510.0,708.8,Zinc Sulphate,18.8
+Telangana,Medak,Maize,Rabi,2015,Red Soil,16.61,1547.3,920.0,Neem Oil,20.0
+Telangana,Karimnagar,Paddy,Rabi,2022,Clayey,198.31,965.1,930.8,DAP,27.3
+Telangana,Khammam,Paddy,Kharif,2016,Red Soil,177.86,974.1,419.9,SSP,31.4
+Telangana,Mancherial,Sunflower,Rabi,2021,Sandy,0.74,340.7,609.5,Magnesium Sulphate,31.7
+Telangana,Khammam,Chillies,Zaid,2019,Loamy,136.72,951.6,1064.1,Farmyard manure,24.8
+Telangana,Jagtial,Maize,Zaid,2020,Alluvial Soil,21.64,1457.1,562.3,Farmyard manure,19.6
+Telangana,Vikarabad,Chillies,Kharif,2018,Black Soil,74.08,854.5,844.6,Rhizobium inoculant,20.8
+Telangana,Karimnagar,Groundnut,Rabi,2023,Clayey,135.22,751.2,668.9,Calcium Nitrate,33.7
+Telangana,Jagtial,Sesame,Kharif,2018,Clayey,58.38,192.3,490.4,Gypsum,32.8
+Telangana,Jagitial,Paddy,Rabi,2020,Alluvial Soil,40.28,1182.8,788.9,Sulphur Dust,20.4
+Telangana,Hyderabad,Soybean,Zaid,2023,Red Soil,150.38,676.2,842.6,Zinc Sulphate,21.6
+Telangana,Nizamabad,Groundnut,Rabi,2022,Black Soil,18.66,424.5,1046.9,Calcium Nitrate,30.6
+Telangana,Siddipet,Paddy,Kharif,2015,Red Soil,106.95,2145.5,1080.4,MOP,24.1
+Telangana,Bhadradri Kothagudem,Sesame,Kharif,2015,Red Soil,166.49,211.5,412.2,Urea,27.2
+Telangana,Nirmal,Turmeric,Kharif,2022,Loamy,177.09,1531.0,737.3,SSP,20.2
+Telangana,Nizamabad,Groundnut,Zaid,2016,Red Soil,41.48,1150.7,667.2,Sulphur Dust,18.7
+Telangana,Nalgonda,Sesame,Rabi,2018,Sandy,141.05,177.8,596.5,Rhizobium inoculant,25.8
+Telangana,Karimnagar,Groundnut,Kharif,2021,Alluvial Soil,137.45,707.7,638.6,Sulphur Dust,28.6
+Telangana,Mancherial,Chillies,Kharif,2022,Red Soil,109.77,278.1,559.0,Urea,26.4
+Telangana,Peddapalli,Paddy,Zaid,2021,Red Soil,38.74,1641.5,1009.3,Urea,31.3
+Telangana,Jagtial,Groundnut,Zaid,2018,Clayey,132.95,949.9,1075.8,Copper Fungicide,33.6
+Telangana,Medak,Sesame,Rabi,2018,Red Soil,104.32,441.8,457.7,SSP,22.6
+Telangana,Suryapet,Sesame,Zaid,2017,Sandy,127.94,165.8,557.4,Calcium Nitrate,32.0
+Telangana,Jagtial,Sunflower,Zaid,2016,Sandy,27.89,334.7,537.1,Neem Oil,26.9
+Telangana,Mahbubnagar,Sesame,Kharif,2017,Red Soil,84.52,601.1,468.3,Boron,25.9
+Telangana,Medak,Soybean,Rabi,2023,Red Soil,143.47,782.2,1074.9,DAP,31.7
+Telangana,Suryapet,Sugarcane,Rabi,2024,Clayey,138.91,32226.9,990.3,MOP,34.3
+Telangana,Rangareddy,Paddy,Kharif,2018,Alluvial Soil,163.39,2041.4,844.0,Neem Oil,30.9
+Telangana,Kamareddy,Soybean,Zaid,2021,Black Soil,152.05,602.3,622.5,Farmyard manure,22.9
+Telangana,Adilabad,Soybean,Kharif,2015,Clayey,13.8,546.7,847.3,Rhizobium inoculant,23.4
+Telangana,Jagitial,Groundnut,Kharif,2016,Sandy,186.93,960.0,475.9,Copper Fungicide,20.4
+Telangana,Nalgonda,Soybean,Rabi,2020,Clayey,11.72,328.0,873.1,MOP,28.0
+Telangana,Nizamabad,Maize,Rabi,2021,Sandy,175.19,1341.2,638.8,Rhizobium inoculant,23.0
+Telangana,Siddipet,Turmeric,Zaid,2019,Clayey,80.06,1367.0,814.8,Zinc Sulphate,23.6
+Telangana,Mahbubnagar,Turmeric,Kharif,2023,Black Soil,128.67,1402.3,437.2,Neem Oil,25.0
+Telangana,Jagitial,Chillies,Kharif,2018,Alluvial Soil,61.21,1179.7,793.0,Calcium Nitrate,19.0
+Telangana,Adilabad,Sesame,Kharif,2016,Loamy,59.84,433.7,533.8,Urea,31.0
+Telangana,Siddipet,Chillies,Kharif,2015,Clayey,40.49,939.7,930.2,Farmyard manure,34.0
+Telangana,Bhadradri Kothagudem,Soybean,Zaid,2023,Sandy,178.48,566.4,767.3,Gypsum,19.9
+Telangana,Nalgonda,Paddy,Rabi,2021,Alluvial Soil,111.73,2145.4,561.8,MOP,21.6
+Telangana,Suryapet,Paddy,Kharif,2020,Clayey,180.13,932.7,1032.3,MOP,31.4
+Telangana,Khammam,Cotton,Kharif,2016,Sandy,25.65,665.5,425.6,Rhizobium inoculant,34.8
+Telangana,Nirmal,Chillies,Kharif,2019,Black Soil,181.64,349.5,749.1,Urea,27.7
+Telangana,Nirmal,Groundnut,Rabi,2018,Alluvial Soil,76.13,731.2,996.2,Copper Fungicide,23.9
+Telangana,Karimnagar,Soybean,Zaid,2016,Alluvial Soil,53.4,644.3,456.9,Rhizobium inoculant,20.3
+Telangana,Peddapalli,Paddy,Rabi,2018,Clayey,103.24,1267.1,523.3,Boron,34.1
+Telangana,Medak,Sugarcane,Kharif,2022,Black Soil,68.01,16633.3,889.6,Gypsum,33.2
+Telangana,Jagtial,Cotton,Zaid,2021,Sandy,115.9,611.2,511.1,SSP,22.7
+Telangana,Kamareddy,Cotton,Kharif,2018,Clayey,130.81,252.7,796.7,Neem Oil,21.4
+Telangana,Warangal,Sesame,Zaid,2020,Alluvial Soil,94.88,568.7,457.4,Neem Oil,20.6
+Telangana,Mancherial,Cotton,Kharif,2018,Loamy,174.41,383.9,487.1,Neem Oil,23.7
+Telangana,Kamareddy,Chillies,Rabi,2019,Sandy,57.21,908.8,467.0,Neem Oil,31.2
+Telangana,Peddapalli,Sunflower,Kharif,2024,Loamy,160.49,850.8,591.9,MOP,26.2
+Telangana,Mahbubnagar,Chillies,Kharif,2020,Black Soil,138.3,1065.1,1019.8,Gypsum,23.1
+Telangana,Bhadradri Kothagudem,Turmeric,Kharif,2022,Red Soil,65.05,1377.6,1015.0,Magnesium Sulphate,21.3
+Telangana,Jagtial,Groundnut,Zaid,2020,Red Soil,126.95,848.6,1033.3,DAP,22.6
+Telangana,Mancherial,Groundnut,Rabi,2015,Alluvial Soil,77.29,1123.3,428.2,Farmyard manure,23.8
+Telangana,Mancherial,Groundnut,Zaid,2022,Red Soil,116.45,881.7,1076.9,Rhizobium inoculant,27.2
+Telangana,Jagitial,Chillies,Zaid,2024,Sandy,82.67,1151.5,485.8,Compost,34.0
+Telangana,Suryapet,Paddy,Rabi,2024,Sandy,110.32,1023.5,432.8,Boron,27.5
+Telangana,Rangareddy,Sesame,Kharif,2016,Sandy,121.37,161.3,659.1,DAP,34.7
+Telangana,Nalgonda,Cotton,Kharif,2015,Loamy,39.18,446.2,808.2,Copper Fungicide,19.1
+Telangana,Karimnagar,Sunflower,Rabi,2024,Black Soil,94.59,364.1,802.0,Neem Oil,31.5
+Telangana,Warangal,Soybean,Zaid,2015,Clayey,157.68,428.3,1040.1,Gypsum,34.4
+Telangana,Suryapet,Chillies,Zaid,2018,Clayey,93.24,870.5,896.2,Compost,30.0
+Telangana,Jagitial,Cotton,Rabi,2017,Alluvial Soil,40.42,200.2,445.9,Sulphur Dust,30.8
+Telangana,Jagtial,Sesame,Zaid,2024,Sandy,137.73,613.4,470.6,Rhizobium inoculant,31.3
+Telangana,Nalgonda,Sesame,Rabi,2021,Loamy,196.17,669.8,416.1,Urea,28.1
+Telangana,Karimnagar,Chillies,Zaid,2024,Red Soil,49.5,420.2,939.6,Compost,20.8
+Telangana,Jagitial,Turmeric,Rabi,2016,Loamy,54.59,1757.1,563.6,Magnesium Sulphate,34.7
+Telangana,Mahbubnagar,Sugarcane,Zaid,2016,Loamy,56.93,22683.3,501.7,Neem Oil,30.6
+Telangana,Kamareddy,Soybean,Kharif,2022,Clayey,58.32,846.1,892.7,Boron,33.4
+Telangana,Adilabad,Chillies,Rabi,2021,Red Soil,161.52,540.6,400.9,Boron,24.1
+Telangana,Mancherial,Soybean,Kharif,2022,Red Soil,112.23,781.3,404.5,Magnesium Sulphate,32.7
+Telangana,Warangal,Soybean,Rabi,2016,Sandy,190.56,564.3,932.9,SSP,31.6
+Telangana,Kamareddy,Sunflower,Kharif,2024,Sandy,184.29,743.3,655.2,Compost,31.0
+Telangana,Rangareddy,Sugarcane,Rabi,2020,Black Soil,118.13,29085.6,1007.1,MOP,19.8
+Telangana,Jagtial,Chillies,Rabi,2019,Red Soil,53.45,785.8,1025.8,Zinc Sulphate,31.1
+Telangana,Warangal,Turmeric,Kharif,2015,Clayey,197.86,1813.5,909.9,Neem Oil,33.1
+Telangana,Peddapalli,Turmeric,Rabi,2019,Red Soil,118.78,512.2,721.9,Compost,26.4
+Telangana,Rangareddy,Sugarcane,Kharif,2015,Black Soil,152.44,17473.0,490.7,DAP,31.7
+Telangana,Kamareddy,Groundnut,Rabi,2015,Alluvial Soil,71.09,848.4,844.0,Gypsum,24.2
+Telangana,Bhadradri Kothagudem,Chillies,Kharif,2015,Black Soil,100.08,772.4,778.8,Urea,18.9
+Telangana,Vikarabad,Sunflower,Rabi,2022,Alluvial Soil,53.8,336.7,848.3,Sulphur Dust,32.3
+Telangana,Hyderabad,Soybean,Rabi,2016,Black Soil,2.94,576.0,1073.6,Calcium Nitrate,34.9
+Telangana,Nizamabad,Paddy,Rabi,2024,Sandy,174.16,1587.4,955.8,Compost,21.8
+Telangana,Mahbubnagar,Sunflower,Zaid,2021,Loamy,159.15,675.6,527.8,Urea,23.7
+Telangana,Mancherial,Sesame,Rabi,2019,Alluvial Soil,175.68,278.6,739.2,Zinc Sulphate,28.8
+Telangana,Hyderabad,Groundnut,Rabi,2021,Black Soil,172.8,527.3,464.2,Urea,31.2
+Telangana,Nizamabad,Paddy,Rabi,2022,Sandy,164.1,1105.9,807.0,DAP,28.5
+Telangana,Medak,Sesame,Kharif,2018,Red Soil,18.36,324.7,920.7,Sulphur Dust,29.9
+Telangana,Bhadradri Kothagudem,Sunflower,Zaid,2019,Red Soil,18.42,464.6,552.8,Compost,29.6
+Telangana,Khammam,Sugarcane,Kharif,2016,Sandy,47.61,26853.5,902.9,MOP,27.2
+Telangana,Nirmal,Sugarcane,Zaid,2024,Clayey,117.5,18708.6,926.0,Compost,31.6
+Telangana,Hyderabad,Cotton,Zaid,2015,Red Soil,116.97,365.8,449.2,Magnesium Sulphate,34.9
+Telangana,Nirmal,Groundnut,Kharif,2018,Black Soil,68.09,568.9,924.2,Calcium Nitrate,31.6
+Telangana,Nizamabad,Cotton,Rabi,2015,Loamy,160.6,669.7,867.9,SSP,22.2
+Telangana,Bhadradri Kothagudem,Chillies,Rabi,2017,Black Soil,174.56,617.1,591.2,Zinc Sulphate,22.0
+Telangana,Nirmal,Soybean,Kharif,2022,Red Soil,178.99,312.3,440.4,Copper Fungicide,31.6
+Telangana,Hyderabad,Paddy,Rabi,2024,Clayey,194.6,1566.2,907.4,Rhizobium inoculant,27.2
+Telangana,Khammam,Chillies,Rabi,2023,Clayey,154.63,405.5,808.3,Neem Oil,33.3
+Telangana,Suryapet,Turmeric,Zaid,2022,Loamy,146.95,1200.5,575.2,Boron,27.4
+Telangana,Vikarabad,Groundnut,Rabi,2020,Loamy,38.02,587.7,740.2,Calcium Nitrate,28.7
+Telangana,Nalgonda,Soybean,Kharif,2018,Alluvial Soil,74.06,534.9,822.1,DAP,22.8
+Telangana,Mahbubnagar,Maize,Rabi,2016,Loamy,181.46,1668.1,1037.3,Zinc Sulphate,28.9
+Telangana,Jagitial,Chillies,Kharif,2021,Alluvial Soil,146.25,358.7,831.4,Copper Fungicide,30.8
+Telangana,Kamareddy,Maize,Kharif,2021,Loamy,63.1,839.2,1048.8,Gypsum,34.9
+Telangana,Adilabad,Sugarcane,Zaid,2020,Loamy,166.86,15098.8,625.4,Gypsum,33.4
+Telangana,Suryapet,Paddy,Zaid,2018,Alluvial Soil,38.36,1898.7,575.2,Urea,21.7
+Telangana,Kamareddy,Maize,Zaid,2018,Sandy,19.52,1458.9,566.5,Copper Fungicide,33.0
+Telangana,Peddapalli,Groundnut,Kharif,2018,Alluvial Soil,93.24,510.5,469.3,SSP,25.8
+Telangana,Peddapalli,Sunflower,Kharif,2023,Alluvial Soil,51.52,464.8,495.6,Farmyard manure,24.8
+Telangana,Suryapet,Groundnut,Kharif,2017,Alluvial Soil,154.41,998.0,576.7,MOP,21.2
+Telangana,Khammam,Sunflower,Kharif,2019,Sandy,66.07,771.3,869.4,Farmyard manure,21.5
+Telangana,Jagtial,Chillies,Zaid,2019,Red Soil,158.28,1116.1,840.6,SSP,28.5
+Telangana,Mancherial,Chillies,Rabi,2015,Clayey,42.36,962.0,928.6,Magnesium Sulphate,18.1
+Telangana,Vikarabad,Sunflower,Rabi,2016,Sandy,89.28,629.7,666.0,Copper Fungicide,19.4
+Telangana,Nalgonda,Sunflower,Zaid,2023,Sandy,138.9,330.9,671.5,Farmyard manure,18.5
+Telangana,Siddipet,Chillies,Zaid,2022,Clayey,11.57,545.9,841.1,Neem Oil,20.4
+Telangana,Suryapet,Groundnut,Kharif,2017,Loamy,52.27,719.6,654.6,Farmyard manure,30.3
+Telangana,Adilabad,Sunflower,Kharif,2024,Loamy,140.73,793.4,473.6,Compost,29.4
+Telangana,Siddipet,Paddy,Rabi,2018,Alluvial Soil,107.62,1680.9,978.6,Compost,31.7
+Telangana,Bhadradri Kothagudem,Maize,Zaid,2017,Loamy,142.73,1485.9,605.1,MOP,19.3
+Telangana,Siddipet,Cotton,Zaid,2019,Clayey,94.04,650.4,994.4,Boron,31.7
+Telangana,Jagtial,Maize,Kharif,2016,Clayey,192.72,1605.0,570.0,Sulphur Dust,20.0
+Telangana,Bhadradri Kothagudem,Paddy,Rabi,2022,Black Soil,161.87,2156.8,986.4,Sulphur Dust,19.0
+Telangana,Jagitial,Turmeric,Rabi,2022,Black Soil,28.59,1969.2,634.3,Rhizobium inoculant,21.5
+Telangana,Jagitial,Groundnut,Rabi,2015,Black Soil,129.23,580.6,655.8,Boron,26.5
+Telangana,Adilabad,Sesame,Zaid,2018,Red Soil,41.51,571.0,730.4,Compost,18.6
+Telangana,Vikarabad,Soybean,Kharif,2024,Alluvial Soil,149.83,366.9,644.1,Compost,28.9
+Telangana,Jagtial,Sugarcane,Kharif,2016,Black Soil,137.02,23163.1,607.1,Gypsum,34.1
+Telangana,Khammam,Cotton,Zaid,2019,Alluvial Soil,184.12,756.3,1093.5,SSP,18.4
+Telangana,Jagtial,Sugarcane,Rabi,2023,Alluvial Soil,63.24,34477.0,882.5,Zinc Sulphate,19.4
+Telangana,Bhadradri Kothagudem,Cotton,Rabi,2015,Loamy,19.29,421.6,596.4,Compost,26.4
+Telangana,Kamareddy,Sunflower,Kharif,2019,Black Soil,121.32,384.1,1073.2,Magnesium Sulphate,34.8
+Telangana,Kamareddy,Paddy,Zaid,2021,Clayey,15.36,1267.0,760.4,Rhizobium inoculant,31.3
+Telangana,Bhadradri Kothagudem,Sugarcane,Rabi,2021,Clayey,148.69,27829.1,934.2,Copper Fungicide,32.4
+Telangana,Jagtial,Chillies,Rabi,2024,Clayey,105.52,484.4,491.9,SSP,26.7
+Telangana,Rangareddy,Soybean,Kharif,2015,Clayey,7.67,473.8,435.8,Magnesium Sulphate,25.7
+Telangana,Suryapet,Sugarcane,Zaid,2018,Black Soil,199.37,20718.7,680.4,SSP,20.5
+Telangana,Nirmal,Cotton,Zaid,2022,Red Soil,65.25,570.6,766.8,Rhizobium inoculant,33.5
+Telangana,Karimnagar,Chillies,Zaid,2015,Alluvial Soil,15.28,874.6,847.1,Copper Fungicide,19.5
+Telangana,Adilabad,Chillies,Kharif,2024,Clayey,13.35,381.5,471.8,Farmyard manure,27.4
+Telangana,Peddapalli,Sunflower,Zaid,2023,Red Soil,116.38,315.6,803.1,Magnesium Sulphate,32.6
+Telangana,Nirmal,Paddy,Zaid,2019,Clayey,50.98,1289.1,800.5,Magnesium Sulphate,22.8
+Telangana,Vikarabad,Sesame,Rabi,2019,Black Soil,169.21,282.1,958.2,MOP,23.6
+Telangana,Hyderabad,Cotton,Zaid,2020,Black Soil,62.89,208.3,430.0,Urea,23.7
+Telangana,Warangal,Sesame,Zaid,2017,Black Soil,13.93,252.1,752.6,Urea,23.7
+Telangana,Khammam,Cotton,Rabi,2015,Alluvial Soil,41.02,275.1,1033.7,Neem Oil,27.1
+Telangana,Karimnagar,Chillies,Rabi,2024,Alluvial Soil,99.69,360.3,1040.6,Compost,19.6
+Telangana,Jagitial,Turmeric,Zaid,2018,Sandy,149.55,1778.2,474.3,Sulphur Dust,31.9
+Telangana,Jagtial,Paddy,Kharif,2015,Sandy,75.46,1823.0,1026.5,MOP,32.3
+Telangana,Nalgonda,Groundnut,Kharif,2019,Loamy,142.07,938.3,1054.9,Zinc Sulphate,21.1
+Telangana,Warangal,Sugarcane,Kharif,2024,Alluvial Soil,93.44,31118.8,640.4,Gypsum,32.3
+Telangana,Bhadradri Kothagudem,Groundnut,Rabi,2017,Black Soil,157.56,627.8,515.3,Calcium Nitrate,29.0
+Telangana,Jagtial,Sesame,Rabi,2019,Black Soil,140.98,251.1,1019.6,Calcium Nitrate,32.3
+Telangana,Vikarabad,Turmeric,Kharif,2022,Sandy,40.98,728.3,693.6,MOP,24.4
+Telangana,Nirmal,Chillies,Rabi,2021,Sandy,2.71,1009.3,661.9,DAP,25.2
+Telangana,Jagitial,Cotton,Zaid,2016,Black Soil,130.8,559.8,736.5,Urea,27.6
+Telangana,Hyderabad,Turmeric,Kharif,2024,Alluvial Soil,2.98,858.4,448.1,MOP,22.5
+Telangana,Mancherial,Cotton,Kharif,2024,Loamy,26.26,445.8,943.3,MOP,21.8
+Telangana,Suryapet,Sesame,Zaid,2016,Loamy,68.27,554.3,815.7,Neem Oil,22.0
+Telangana,Suryapet,Sunflower,Rabi,2017,Red Soil,91.39,451.9,594.8,Rhizobium inoculant,30.4
+Telangana,Rangareddy,Sesame,Kharif,2017,Black Soil,126.05,521.2,536.0,Compost,24.4
+Telangana,Kamareddy,Sugarcane,Kharif,2023,Black Soil,197.98,17614.1,737.5,Urea,22.6
+Telangana,Khammam,Sunflower,Rabi,2022,Red Soil,165.49,354.7,1010.2,Farmyard manure,29.7
+Telangana,Vikarabad,Paddy,Rabi,2015,Black Soil,39.45,1880.9,470.0,Farmyard manure,32.0
+Telangana,Warangal,Maize,Rabi,2015,Clayey,8.23,1498.0,695.0,DAP,32.2
+Telangana,Medak,Groundnut,Kharif,2021,Black Soil,97.34,491.5,983.8,Compost,32.1
+Telangana,Jagtial,Sesame,Rabi,2021,Red Soil,33.57,648.4,1042.4,Urea,24.4
+Telangana,Bhadradri Kothagudem,Soybean,Kharif,2018,Clayey,164.58,693.9,854.0,Rhizobium inoculant,23.2
+Telangana,Nalgonda,Turmeric,Rabi,2016,Loamy,66.26,585.6,727.5,Sulphur Dust,21.4
+Telangana,Hyderabad,Turmeric,Kharif,2022,Clayey,101.52,1058.3,525.3,Copper Fungicide,34.4
+Telangana,Suryapet,Turmeric,Rabi,2016,Sandy,37.02,860.2,869.4,MOP,21.4
+Telangana,Rangareddy,Sesame,Rabi,2022,Loamy,5.38,235.2,436.4,Compost,25.4
+Telangana,Hyderabad,Cotton,Zaid,2017,Clayey,174.69,544.1,646.8,Copper Fungicide,30.1
+Telangana,Vikarabad,Sesame,Zaid,2021,Loamy,152.23,577.8,1033.1,SSP,18.4
+Telangana,Hyderabad,Groundnut,Rabi,2018,Loamy,99.76,668.7,705.1,Compost,25.6
+Telangana,Kamareddy,Paddy,Zaid,2022,Clayey,80.68,1957.0,504.9,Sulphur Dust,23.6
+Telangana,Suryapet,Sugarcane,Zaid,2021,Alluvial Soil,16.98,20217.3,882.1,Boron,26.5
+Telangana,Bhadradri Kothagudem,Groundnut,Zaid,2020,Black Soil,93.88,1161.2,940.3,Magnesium Sulphate,31.6
+Telangana,Rangareddy,Sunflower,Rabi,2021,Red Soil,48.3,414.2,812.5,SSP,18.7
+Telangana,Nirmal,Soybean,Zaid,2021,Black Soil,119.44,857.2,842.9,DAP,28.7
+Telangana,Karimnagar,Sesame,Kharif,2021,Alluvial Soil,123.55,495.9,873.1,Gypsum,28.7
+Telangana,Siddipet,Soybean,Kharif,2017,Sandy,80.42,682.0,883.2,Boron,24.1
+Telangana,Siddipet,Maize,Kharif,2024,Black Soil,26.97,1741.4,439.6,Copper Fungicide,24.2
+Telangana,Warangal,Chillies,Rabi,2015,Black Soil,77.24,718.6,952.5,SSP,18.6
+Telangana,Nizamabad,Soybean,Rabi,2016,Red Soil,20.26,383.7,848.8,Gypsum,26.1
+Telangana,Mancherial,Maize,Rabi,2016,Alluvial Soil,167.1,1323.6,561.6,Rhizobium inoculant,23.7
+Telangana,Mahbubnagar,Sesame,Rabi,2022,Alluvial Soil,26.89,296.1,1032.1,SSP,24.7
+Telangana,Hyderabad,Sunflower,Zaid,2018,Alluvial Soil,130.88,684.3,1042.6,Copper Fungicide,24.6
+Telangana,Nalgonda,Cotton,Rabi,2020,Red Soil,26.38,597.8,865.1,Farmyard manure,26.6
+Telangana,Nalgonda,Sesame,Rabi,2021,Clayey,81.15,422.9,639.1,Calcium Nitrate,34.2
+Telangana,Nizamabad,Chillies,Zaid,2022,Loamy,62.09,209.1,1086.2,Magnesium Sulphate,30.1
+Telangana,Nalgonda,Cotton,Kharif,2016,Black Soil,163.25,585.0,963.6,Farmyard manure,24.1
+Telangana,Adilabad,Sunflower,Zaid,2017,Loamy,132.65,484.2,948.0,Calcium Nitrate,19.5
+Telangana,Hyderabad,Cotton,Zaid,2015,Loamy,133.33,231.9,682.5,Sulphur Dust,20.7
+Telangana,Bhadradri Kothagudem,Sunflower,Zaid,2020,Black Soil,47.52,762.6,645.1,Copper Fungicide,31.4
+Telangana,Adilabad,Chillies,Rabi,2016,Clayey,137.25,1157.0,806.6,Zinc Sulphate,28.2
+Telangana,Medak,Chillies,Zaid,2015,Clayey,87.32,1116.0,519.7,DAP,26.9
+Telangana,Nirmal,Chillies,Rabi,2018,Alluvial Soil,155.11,653.3,412.2,Boron,19.4
+Telangana,Vikarabad,Turmeric,Rabi,2020,Sandy,183.82,1192.2,1008.7,Magnesium Sulphate,24.6
+Telangana,Suryapet,Cotton,Zaid,2020,Clayey,171.71,769.9,470.9,DAP,28.0
+Telangana,Siddipet,Sugarcane,Zaid,2017,Sandy,41.74,14401.8,736.2,Urea,21.2
+Telangana,Hyderabad,Groundnut,Kharif,2024,Alluvial Soil,60.81,925.9,733.8,Rhizobium inoculant,27.3
+Telangana,Peddapalli,Groundnut,Rabi,2018,Black Soil,149.22,455.1,668.3,Calcium Nitrate,20.6
+Telangana,Medak,Sugarcane,Kharif,2016,Loamy,126.7,14455.9,923.6,Zinc Sulphate,32.7
+Telangana,Siddipet,Groundnut,Kharif,2020,Loamy,49.18,1036.7,875.2,SSP,23.0
+Telangana,Adilabad,Sunflower,Rabi,2020,Alluvial Soil,63.41,892.6,992.5,Boron,18.4
+Telangana,Adilabad,Cotton,Kharif,2022,Loamy,24.21,795.1,1043.8,Magnesium Sulphate,20.9
+Telangana,Siddipet,Cotton,Kharif,2020,Alluvial Soil,52.7,650.3,980.9,Sulphur Dust,28.0
+Telangana,Karimnagar,Cotton,Rabi,2018,Sandy,72.2,309.0,917.2,Calcium Nitrate,26.4
+Telangana,Warangal,Sugarcane,Kharif,2021,Loamy,165.35,13768.0,1063.2,Compost,34.1
+Telangana,Vikarabad,Groundnut,Rabi,2019,Red Soil,60.3,879.5,586.5,SSP,18.1
+Telangana,Karimnagar,Turmeric,Zaid,2020,Loamy,4.27,1110.5,737.7,Magnesium Sulphate,27.1
+Telangana,Nirmal,Paddy,Rabi,2017,Sandy,136.3,2128.9,613.9,Boron,25.9
+Telangana,Mancherial,Groundnut,Zaid,2016,Loamy,137.4,960.4,677.0,Calcium Nitrate,19.9
+Telangana,Jagtial,Paddy,Kharif,2023,Red Soil,146.46,1625.0,948.7,Sulphur Dust,27.2
+Telangana,Peddapalli,Maize,Rabi,2020,Alluvial Soil,145.2,935.4,1033.7,Compost,20.7
+Telangana,Jagitial,Cotton,Rabi,2018,Clayey,63.86,748.2,408.7,Compost,19.2
+Telangana,Karimnagar,Chillies,Rabi,2020,Clayey,180.14,668.9,609.3,Calcium Nitrate,20.5
+Telangana,Rangareddy,Sunflower,Rabi,2020,Sandy,31.24,596.0,676.1,Rhizobium inoculant,34.7
+Telangana,Bhadradri Kothagudem,Paddy,Rabi,2015,Red Soil,88.67,2097.2,817.5,DAP,31.5
+Telangana,Peddapalli,Sesame,Rabi,2024,Sandy,43.8,335.5,1019.9,DAP,26.1
+Telangana,Jagitial,Cotton,Zaid,2018,Red Soil,101.86,403.0,978.9,Calcium Nitrate,25.7
+Telangana,Adilabad,Sesame,Kharif,2017,Alluvial Soil,115.07,669.6,1058.4,Gypsum,24.9
+Telangana,Jagtial,Turmeric,Kharif,2019,Black Soil,119.89,970.9,600.7,Zinc Sulphate,19.9
+Telangana,Bhadradri Kothagudem,Maize,Rabi,2019,Alluvial Soil,83.05,809.5,954.3,Copper Fungicide,20.6
+Telangana,Peddapalli,Sunflower,Zaid,2017,Black Soil,81.52,414.8,841.3,Copper Fungicide,21.2
+Telangana,Jagitial,Turmeric,Rabi,2020,Black Soil,6.95,522.6,920.6,Urea,34.5
+Telangana,Medak,Maize,Rabi,2018,Clayey,136.63,894.4,865.9,Zinc Sulphate,34.4
+Telangana,Peddapalli,Sesame,Kharif,2020,Loamy,129.5,436.9,804.1,Calcium Nitrate,18.4
+Telangana,Peddapalli,Sugarcane,Zaid,2024,Clayey,67.04,29357.1,911.9,Copper Fungicide,31.3
+Telangana,Nirmal,Paddy,Zaid,2019,Loamy,58.02,1414.9,658.1,Boron,20.1
+Telangana,Mancherial,Sugarcane,Rabi,2020,Red Soil,54.58,16222.7,587.9,Zinc Sulphate,20.9
+Telangana,Siddipet,Chillies,Zaid,2021,Black Soil,3.81,297.9,644.7,Urea,19.2
+Telangana,Suryapet,Soybean,Rabi,2022,Sandy,146.25,579.1,919.4,Farmyard manure,22.9
+Telangana,Khammam,Soybean,Rabi,2016,Sandy,54.15,842.8,519.5,Calcium Nitrate,30.9
+Telangana,Mancherial,Sunflower,Kharif,2020,Black Soil,6.97,749.1,611.0,Urea,22.7
+Telangana,Medak,Turmeric,Kharif,2019,Loamy,146.78,992.8,555.0,Magnesium Sulphate,20.3
+Telangana,Vikarabad,Chillies,Rabi,2015,Sandy,64.59,1187.0,970.2,Copper Fungicide,31.9
+Telangana,Nirmal,Groundnut,Kharif,2020,Loamy,171.4,428.2,840.6,MOP,28.6
+Telangana,Mancherial,Paddy,Kharif,2020,Alluvial Soil,75.14,1270.3,574.7,Rhizobium inoculant,28.7
+Telangana,Nirmal,Maize,Zaid,2017,Loamy,113.59,1507.6,497.8,Boron,24.5
+Telangana,Suryapet,Turmeric,Kharif,2017,Red Soil,135.31,1199.2,614.9,MOP,26.4
+Telangana,Nizamabad,Paddy,Zaid,2020,Sandy,81.74,2151.8,486.4,Farmyard manure,34.9
+Telangana,Jagitial,Sunflower,Rabi,2022,Loamy,68.66,505.6,440.2,Magnesium Sulphate,29.0
+Telangana,Khammam,Sugarcane,Rabi,2017,Black Soil,76.65,13861.4,899.3,Urea,34.1
+Telangana,Hyderabad,Turmeric,Kharif,2020,Sandy,185.71,677.8,483.5,SSP,26.4
+Telangana,Vikarabad,Sugarcane,Zaid,2020,Red Soil,125.92,20940.8,416.0,Sulphur Dust,32.8
+Telangana,Jagtial,Sesame,Rabi,2018,Red Soil,53.47,270.3,1094.8,Magnesium Sulphate,33.3
+Telangana,Rangareddy,Chillies,Rabi,2024,Black Soil,56.69,1007.8,1003.9,Neem Oil,24.7
+Telangana,Hyderabad,Chillies,Rabi,2018,Red Soil,172.59,931.3,856.4,SSP,31.8
+Telangana,Karimnagar,Sugarcane,Kharif,2020,Black Soil,77.0,23927.4,731.9,DAP,32.3
+Telangana,Warangal,Sesame,Kharif,2015,Alluvial Soil,194.26,498.5,638.7,Calcium Nitrate,32.0
+Telangana,Nirmal,Paddy,Zaid,2020,Clayey,11.2,1705.6,991.9,Rhizobium inoculant,19.7
+Telangana,Nalgonda,Sugarcane,Zaid,2015,Loamy,166.87,11925.8,542.0,DAP,26.9
+Telangana,Karimnagar,Paddy,Zaid,2022,Alluvial Soil,100.87,1531.8,745.4,MOP,18.7
+Telangana,Peddapalli,Groundnut,Kharif,2020,Clayey,60.11,522.4,951.2,Gypsum,25.9
+Telangana,Siddipet,Maize,Rabi,2020,Loamy,119.36,1449.2,487.4,Calcium Nitrate,25.3
+Telangana,Medak,Maize,Kharif,2018,Clayey,81.99,1719.0,605.5,Copper Fungicide,27.2
+Telangana,Hyderabad,Sesame,Rabi,2020,Alluvial Soil,43.08,258.4,967.2,Calcium Nitrate,20.9
+Telangana,Karimnagar,Turmeric,Zaid,2016,Clayey,77.35,1268.3,787.7,Zinc Sulphate,19.2
+Telangana,Jagitial,Sesame,Rabi,2017,Alluvial Soil,92.39,189.7,435.2,DAP,26.0
+Telangana,Mahbubnagar,Maize,Zaid,2016,Sandy,144.51,1399.8,529.4,Calcium Nitrate,20.7
+Telangana,Karimnagar,Groundnut,Zaid,2024,Alluvial Soil,192.95,499.3,596.4,Rhizobium inoculant,30.0
+Telangana,Karimnagar,Maize,Kharif,2016,Loamy,11.42,1248.9,714.7,Compost,29.3
+Telangana,Medak,Cotton,Zaid,2015,Loamy,135.02,777.8,817.9,Magnesium Sulphate,18.9
+Telangana,Medak,Sesame,Zaid,2020,Loamy,145.89,559.5,976.7,SSP,18.2
+Telangana,Siddipet,Sesame,Zaid,2016,Black Soil,159.81,591.9,618.8,Rhizobium inoculant,31.6
+Telangana,Hyderabad,Soybean,Rabi,2022,Loamy,174.81,650.7,917.3,SSP,30.4
+Telangana,Nirmal,Maize,Rabi,2023,Loamy,49.16,919.3,794.8,DAP,25.9
+Telangana,Khammam,Sugarcane,Rabi,2021,Black Soil,66.23,17987.3,922.9,Calcium Nitrate,30.0
+Telangana,Nizamabad,Turmeric,Kharif,2020,Loamy,21.56,879.1,975.2,Zinc Sulphate,23.3
+Telangana,Hyderabad,Cotton,Rabi,2018,Loamy,75.59,232.2,936.7,Copper Fungicide,29.0
+Telangana,Jagtial,Turmeric,Rabi,2017,Red Soil,128.14,1762.2,639.4,Calcium Nitrate,29.2
+Telangana,Siddipet,Soybean,Rabi,2023,Loamy,37.08,663.0,946.5,Rhizobium inoculant,20.7
+Telangana,Adilabad,Chillies,Rabi,2023,Loamy,61.25,795.0,572.5,Compost,30.8
+Telangana,Rangareddy,Sugarcane,Kharif,2023,Black Soil,121.46,28795.5,1075.9,Gypsum,19.2
+Telangana,Vikarabad,Sunflower,Rabi,2020,Alluvial Soil,166.67,478.7,896.2,Compost,24.9
+Telangana,Suryapet,Sunflower,Kharif,2020,Sandy,92.61,669.8,778.8,Compost,22.5
+Telangana,Nalgonda,Soybean,Zaid,2016,Clayey,51.74,859.7,978.2,SSP,21.5
+Telangana,Mancherial,Groundnut,Zaid,2019,Sandy,51.61,905.6,495.2,Zinc Sulphate,22.8
+Telangana,Kamareddy,Paddy,Kharif,2020,Clayey,166.29,1368.7,435.9,Copper Fungicide,19.3
+Telangana,Karimnagar,Chillies,Kharif,2024,Clayey,101.23,1100.6,1071.6,Gypsum,19.5
+Telangana,Medak,Soybean,Kharif,2018,Sandy,182.49,348.4,807.3,Calcium Nitrate,32.0
+Telangana,Khammam,Soybean,Rabi,2018,Red Soil,133.91,686.2,973.4,Sulphur Dust,34.0
+Telangana,Mahbubnagar,Chillies,Rabi,2020,Alluvial Soil,40.44,773.7,1094.2,Gypsum,28.5
+Telangana,Khammam,Groundnut,Zaid,2018,Sandy,168.41,909.7,1067.4,Boron,22.2
+Telangana,Nizamabad,Paddy,Kharif,2015,Clayey,144.26,1241.6,539.1,Sulphur Dust,27.7
+Telangana,Warangal,Chillies,Rabi,2016,Red Soil,122.98,676.4,1099.1,SSP,26.3
+Telangana,Medak,Sunflower,Rabi,2021,Sandy,75.44,578.0,514.9,Urea,27.7
+Telangana,Kamareddy,Sunflower,Rabi,2016,Loamy,188.84,625.2,801.1,Sulphur Dust,31.9
+Telangana,Nizamabad,Cotton,Rabi,2024,Red Soil,121.89,755.0,434.9,Sulphur Dust,31.4
+Telangana,Nalgonda,Groundnut,Zaid,2023,Black Soil,87.16,737.8,1023.5,MOP,28.8
+Telangana,Mancherial,Sugarcane,Kharif,2020,Alluvial Soil,64.26,21810.3,1038.6,SSP,34.3
+Telangana,Khammam,Sunflower,Kharif,2020,Black Soil,118.1,687.7,432.1,Copper Fungicide,28.6
+Telangana,Kamareddy,Sugarcane,Zaid,2021,Clayey,177.18,10436.1,1072.6,Urea,27.9
+Telangana,Adilabad,Turmeric,Kharif,2024,Sandy,144.06,1668.0,909.6,SSP,34.6
+Telangana,Nalgonda,Groundnut,Rabi,2016,Sandy,197.79,741.2,792.2,Urea,34.2
+Telangana,Bhadradri Kothagudem,Paddy,Rabi,2020,Loamy,35.41,981.4,737.1,Calcium Nitrate,31.1
+Telangana,Nizamabad,Chillies,Rabi,2018,Alluvial Soil,184.24,480.4,818.2,SSP,32.4
+Telangana,Bhadradri Kothagudem,Sugarcane,Zaid,2019,Black Soil,190.13,13874.1,511.9,Magnesium Sulphate,22.7
+Telangana,Medak,Maize,Rabi,2015,Red Soil,97.72,1164.1,509.8,Copper Fungicide,31.0
+Telangana,Siddipet,Sesame,Rabi,2017,Black Soil,130.22,202.0,405.9,Farmyard manure,21.6
+Telangana,Jagitial,Paddy,Kharif,2021,Black Soil,51.79,1542.6,1068.2,Urea,31.4
+Telangana,Vikarabad,Sunflower,Kharif,2019,Sandy,16.35,622.5,755.6,Sulphur Dust,19.2
+Telangana,Mancherial,Groundnut,Kharif,2020,Loamy,147.89,1093.5,1072.3,Boron,29.2
+Telangana,Suryapet,Turmeric,Rabi,2024,Sandy,108.71,970.4,939.1,Rhizobium inoculant,26.1
+Telangana,Rangareddy,Chillies,Zaid,2020,Loamy,192.07,935.2,798.2,SSP,32.6
+Telangana,Jagitial,Sunflower,Kharif,2015,Loamy,20.52,777.0,525.9,Calcium Nitrate,33.9
+Telangana,Jagtial,Maize,Zaid,2019,Sandy,25.59,1593.3,428.9,Calcium Nitrate,28.4
+Telangana,Medak,Cotton,Zaid,2016,Alluvial Soil,145.61,232.5,658.9,SSP,33.4
+Telangana,Hyderabad,Sesame,Rabi,2015,Loamy,163.52,261.4,433.5,Calcium Nitrate,28.2
+Telangana,Suryapet,Groundnut,Zaid,2020,Sandy,3.39,553.2,787.3,Sulphur Dust,23.5
+Telangana,Jagitial,Sunflower,Zaid,2023,Clayey,166.22,654.7,663.5,Zinc Sulphate,34.0
+Telangana,Hyderabad,Cotton,Zaid,2020,Sandy,189.64,576.3,603.1,Farmyard manure,29.5
+Telangana,Hyderabad,Sugarcane,Kharif,2020,Loamy,127.03,26181.5,405.6,Calcium Nitrate,20.5
+Telangana,Rangareddy,Sugarcane,Zaid,2017,Clayey,165.77,28173.5,922.2,Urea,32.1
+Telangana,Nirmal,Sunflower,Kharif,2024,Loamy,156.48,732.5,1064.5,Sulphur Dust,22.8
+Telangana,Bhadradri Kothagudem,Turmeric,Kharif,2019,Black Soil,2.5,180.0,88.3,Compost,26.5
+Telangana,Warangal,Cotton,Kharif,2018,Red Soil,2.7,250.0,88.0,Compost,20.0
+Telangana,Suryapet,Sunflower,Rabi,2018,Black Soil,1.5,150.0,88.0,Farmyard manure,26.0
+Telangana,Adilabad,Chillies,Kharif,2018,Alluvial Soil,2.0,150.0,1000.0,Boron,26.0
+Telangana,Hyderabad,Groundnut,Kharif,2019,Alluvial Soil,1.0,120.0,900.0,Boron,26.0
+Telangana,Adilabad,Cotton,Kharif,2012,Alluvial Soil,2.0,120.0,606.0,Boron,23.6

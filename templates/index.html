@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🌾 Crop Yield Prediction</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(to bottom right, #e8fdf5, #f4faff);
+    }
+    .card {
+      backdrop-filter: blur(30px);
+      background: rgba(255, 255, 255, 0.85);
+    }
+    .fade-in {
+      animation: fadeIn 0.7s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(15px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+
+<body class="p-4 sm:p-8 flex justify-center items-center min-h-screen">
+
+  <div class="w-full max-w-3xl card shadow-2xl rounded-3xl p-8 fade-in border border-gray-200">
+
+    <!-- HEADER -->
+    <div class="text-center mb-10">
+      <h1 class="text-4xl font-extrabold text-emerald-700 flex justify-center items-center gap-3">
+        🌾 Smart Crop Yield Predictor
+      </h1>
+      <p class="text-gray-500 mt-2 text-lg">
+        Predict accurate crop yields using ML and real agricultural parameters.
+      </p>
+    </div>
+
+    <form action="/predict" method="POST">
+
+      <script>
+        const stateDistrictMap = JSON.parse('{{ state_district_map_json | tojson }}');
+
+        function updateDistricts() {
+          const stateSelect = document.getElementById('state');
+          const districtSelect = document.getElementById('district');
+          const selectedState = stateSelect.value;
+
+          districtSelect.innerHTML = '<option value="" disabled selected>Select District</option>';
+          districtSelect.disabled = true;
+          districtSelect.classList.add('bg-gray-100');
+
+          if (selectedState && stateDistrictMap[selectedState]) {
+            stateDistrictMap[selectedState].forEach(district => {
+              const option = document.createElement('option');
+              option.value = district;
+              option.textContent = district;
+              districtSelect.appendChild(option);
+            });
+
+            districtSelect.disabled = false;
+            districtSelect.classList.remove('bg-gray-100');
+            districtSelect.classList.add('bg-white');
+          }
+        }
+
+        window.onload = () => {
+          if (document.getElementById('state').value) {
+            updateDistricts();
+          }
+        };
+      </script>
+
+      <!-- GRID FORM -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+
+        <!-- State -->
+        <div>
+          <label class="font-semibold text-gray-700">🌍State *</label>
+          <select id="state" name="state" 
+            class="input-field bg-white p-3 rounded-xl border border-gray-300 w-full mt-1"
+            required onchange="updateDistricts()">
+            <option value="" disabled selected>Select State</option>
+            {% for state in states %}
+            <option value="{{ state }}">{{ state }}</option>
+            {% endfor %}
+          </select>
+        </div>
+
+        <!-- District -->
+        <div>
+          <label class="font-semibold text-gray-700">🏙️District *</label>
+          <select id="district" name="district" 
+            class="input-field p-3 rounded-xl border bg-gray-100 border-gray-300 w-full mt-1"
+            required disabled>
+            <option value="" disabled selected>Select District</option>
+          </select>
+        </div>
+
+        <!-- Crop -->
+        <div>
+          <label class="font-semibold text-gray-700">🌾Crop *</label>
+          <select id="crop" name="crop"
+            class="input-field bg-white p-3 rounded-xl border border-gray-300 w-full mt-1" required>
+            <option value="" disabled selected>Select Crop</option>
+            {% for crop in crops %}
+            <option value="{{ crop }}">{{ crop }}</option>
+            {% endfor %}
+          </select>
+        </div>
+
+        <!-- Season -->
+        <div>
+          <label class="font-semibold text-gray-700">🍂Season *</label>
+          <select id="season" name="season"
+            class="input-field bg-white p-3 rounded-xl border border-gray-300 w-full mt-1" required>
+            <option value="" disabled selected>Select Season</option>
+            {% for season in seasons %}
+            <option value="{{ season }}">{{ season }}</option>
+            {% endfor %}
+          </select>
+        </div>
+
+        <!-- Year -->
+        <div>
+          <label class="font-semibold text-gray-700">📅Year</label>
+          <input type="number" id="crop_year" name="crop_year"
+            class="input-field bg-white p-3 rounded-xl border border-gray-300 w-full mt-1"
+            placeholder="2024" min="2000" max="2050" required>
+        </div>
+
+        <!-- Area -->
+        <div>
+          <label class="font-semibold text-gray-700">📐Area (acres)</label>
+          <input type="number" id="area" name="area"
+            class="input-field bg-white p-3 rounded-xl border border-gray-300 w-full mt-1"
+            placeholder="Area in acres" step="0.01" required>
+        </div>
+
+        <!-- Rainfall -->
+        <div>
+          <label class="font-semibold text-gray-700">🌧️Avg. Rainfall (mm)</label>
+          <input type="number" id="annual_rainfall" name="annual_rainfall"
+            class="input-field bg-white p-3 rounded-xl border border-gray-300 w-full mt-1"
+            placeholder="Average Rainfall in mm" step="0.01" required>
+        </div>
+
+        <!-- Temperature -->
+        <div>
+          <label class="font-semibold text-gray-700">🌡️Avg. Temperature (°C)</label>
+          <input type="number" id="avg_temperature" name="avg_temperature"
+            class="input-field bg-white p-3 rounded-xl border border-gray-300 w-full mt-1"
+            placeholder="Average Temperature" step="0.1" required>
+        </div>
+
+        <!-- Soil Type -->
+        <div class="sm:col-span-2">
+          <label class="font-semibold text-gray-700">🌱Soil Type *</label>
+          <select id="soil_type" name="soil_type"
+            class="input-field bg-white p-3 rounded-xl border border-gray-300 w-full mt-1" required>
+            <option value="" disabled selected>Select Soil Type</option>
+            {% for soil in soil_types %}
+            <option value="{{ soil }}">{{ soil }}</option>
+            {% endfor %}
+          </select>
+        </div>
+
+        <!-- Pesticide -->
+        <div class="sm:col-span-2">
+          <label class="font-semibold text-gray-700">🧪Pesticide *</label>
+          <select id="pesticide_name" name="pesticide_name"
+            class="input-field bg-white p-3 rounded-xl border border-gray-300 w-full mt-1" required>
+            <option value="" disabled selected>Select Pesticide</option>
+            {% for pesticide in pesticides %}
+            <option value="{{ pesticide }}">{{ pesticide }}</option>
+            {% endfor %}
+          </select>
+        </div>
+
+      </div>
+
+      <!-- BUTTON -->
+      <button type="submit"
+        class="w-full mt-8 py-3 bg-emerald-600 hover:bg-emerald-700 text-white font-bold rounded-2xl shadow-lg transition transform hover:scale-[1.02]">
+        🚀 Predict Crop Yield
+      </button>
+
+      <!-- Add Dataset Button -->
+      <div class="text-center mt-6">
+        <a href="/add-data"
+          class="inline-block bg-blue-600 text-white px-5 py-3 rounded-2xl shadow-md hover:bg-blue-700 transition font-semibold">
+          ➕ Add New Dataset Record
+        </a>
+      </div>
+
+    </form>
+  </div>
+
+</body>
+</html>

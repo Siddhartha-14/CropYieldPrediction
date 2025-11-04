@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Dataset Record</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f7f9fc;
+    }
+    .input-group {
+      margin-bottom: 1.25rem;
+    }
+    .input-field {
+      padding: 0.75rem;
+      border-radius: 0.5rem;
+      border: 1px solid #d1d5db;
+      width: 100%;
+      transition: all 0.2s;
+    }
+    .input-field:focus {
+      outline: none;
+      border-color: #10b981;
+      box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.2);
+    }
+    .form-label {
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      display: block;
+      color: #1f2937;
+    }
+  </style>
+
+  <script>
+    const stateDistrictMap = {{ state_district_map_json | tojson }};
+
+    function updateDistricts() {
+      const state = document.getElementById("state").value;
+      const districtDropdown = document.getElementById("district");
+
+      districtDropdown.innerHTML =
+        "<option value='' disabled selected>Select District</option>";
+
+      if (state in stateDistrictMap) {
+        stateDistrictMap[state].forEach(d => {
+          const op = document.createElement("option");
+          op.value = d;
+          op.textContent = d;
+          districtDropdown.appendChild(op);
+        });
+
+        districtDropdown.disabled = false;
+        districtDropdown.classList.remove("bg-gray-100");
+      }
+    }
+  </script>
+
+</head>
+
+<body class="p-4 sm:p-8 flex justify-center items-center min-h-screen">
+
+  <div class="w-full max-w-2xl bg-white shadow-xl rounded-2xl p-6 sm:p-10 border border-gray-200">
+
+    <h2 class="text-3xl font-extrabold text-gray-900 text-center mb-6 flex items-center justify-center">
+      <span class="mr-3 text-blue-600">➕</span> Add New Dataset Record
+    </h2>
+
+    <p class="text-center text-gray-500 mb-8">Fill the details below to insert a new crop record into the dataset.</p>
+
+    <form action="/save-data" method="POST">
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+        <!-- State -->
+        <div class="input-group">
+          <label class="form-label">🌍 State</label>
+          <select id="state" name="state" class="input-field bg-white" required onchange="updateDistricts()">
+            <option value="" disabled selected>Select State</option>
+            {% for state in states %}
+              <option value="{{ state }}">{{ state }}</option>
+            {% endfor %}
+          </select>
+        </div>
+
+        <!-- District -->
+        <div class="input-group">
+          <label class="form-label">🏙️ District</label>
+          <select id="district" name="district" class="input-field bg-gray-100" required disabled>
+            <option value="" disabled selected>Select District</option>
+          </select>
+        </div>
+
+        <!-- Crop -->
+        <div class="input-group">
+          <label class="form-label">🌾 Crop</label>
+          <select name="crop" class="input-field bg-white" required>
+            {% for c in crops %}
+            <option>{{ c }}</option>
+            {% endfor %}
+          </select>
+        </div>
+
+        <!-- Season -->
+        <div class="input-group">
+          <label class="form-label">🍂 Season</label>
+          <select name="season" class="input-field bg-white" required>
+            {% for s in seasons %}
+            <option>{{ s }}</option>
+            {% endfor %}
+          </select>
+        </div>
+
+        <!-- Year -->
+        <div class="input-group">
+          <label class="form-label">📅 Year</label>
+          <input type="number" name="year" class="input-field" placeholder="e.g., 2024" required>
+        </div>
+
+        <!-- Soil -->
+        <div class="input-group">
+          <label class="form-label">🌱 Soil Type</label>
+          <select name="soil_type" class="input-field bg-white" required>
+            {% for s in soil_types %}
+            <option>{{ s }}</option>
+            {% endfor %}
+          </select>
+        </div>
+
+        <!-- Area -->
+        <div class="input-group">
+          <label class="form-label">📐 Area (acres)</label>
+          <input type="number" step="0.01" name="area" class="input-field" placeholder="Enter area" required>
+        </div>
+
+        <!-- Rainfall -->
+        <div class="input-group">
+          <label class="form-label">🌧️ Rainfall (mm)</label>
+          <input type="number" step="0.01" name="annual_rainfall" class="input-field" placeholder="Enter rainfall" required>
+        </div>
+
+        <!-- Pesticide -->
+        <div class="input-group md:col-span-2">
+          <label class="form-label">🧪 Pesticide</label>
+          <select name="pesticide_name" class="input-field bg-white" required>
+            {% for p in pesticides %}
+            <option>{{ p }}</option>
+            {% endfor %}
+          </select>
+        </div>
+
+        <!-- Temperature -->
+        <div class="input-group md:col-span-2">
+          <label class="form-label">🌡️ Avg. Temperature (°C)</label>
+          <input type="number" step="0.1" name="avg_temperature" class="input-field" required placeholder="Enter temperature">
+        </div>
+
+        <!-- Yield -->
+        <div class="input-group md:col-span-2">
+          <label class="form-label">📊 Yield (kg/acre)</label>
+          <input type="number" step="0.01" name="yield" class="input-field" required placeholder="Enter yield">
+        </div>
+
+      </div>
+
+      <button type="submit"
+        class="w-full mt-6 py-3 px-4 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-xl shadow-lg transition duration-200 transform hover:scale-[1.01]">
+        ✅ Save Record
+      </button>
+
+      <div class="text-center mt-6">
+        <a href="/" class="inline-block bg-gray-700 text-white px-5 py-3 rounded-xl shadow-md hover:bg-gray-800 transition">
+          ⬅️ Back to Home
+        </a>
+      </div>
+
+    </form>
+
+  </div>
+
+</body>
+</html>

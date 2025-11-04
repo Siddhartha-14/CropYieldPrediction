@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crop Yield Prediction Result</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <style>
+    body {
+      background: linear-gradient(to right, #e3f9e5, #f0f9ff);
+      font-family: "Inter", sans-serif;
+    }
+    .fade-in { animation: fadeIn 0.7s ease-in-out; }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(12px); }
+      to   { opacity: 1; transform: translateY(0px); }
+    }
+  </style>
+</head>
+
+<body class="min-h-screen p-5 sm:p-10">
+
+  <div class="fade-in max-w-5xl mx-auto bg-white shadow-2xl rounded-3xl p-8 border">
+
+    <h2 class="text-4xl font-extrabold text-center text-emerald-700 mb-6">
+      🌾 Crop Yield Prediction – Detailed Analysis
+    </h2>
+
+    <!-- ✅ Summary Cards -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+      <!-- Farmer Fertilizer Card -->
+      <div class="p-6 rounded-2xl shadow bg-gradient-to-br from-emerald-100 to-emerald-200 border border-emerald-300">
+        <h3 class="text-xl font-bold text-emerald-800 mb-3">👨‍🌾 Farmer’s Fertilizer</h3>
+
+        <p class="text-lg text-gray-700"><b>Fertilizer:</b> {{ farmer_fert }}</p>
+        <p class="text-lg text-gray-700"><b>Predicted Yield:</b> {{ farmer_pred }} kg/acre</p>
+
+        <p class="mt-3 text-xl font-bold text-emerald-800">
+          Total Yield: {{ total_farmer }} kg
+        </p>
+      </div>
+
+      <!-- Recommended Fertilizer Card -->
+      <div class="p-6 rounded-2xl shadow bg-gradient-to-br from-blue-100 to-blue-200 border border-blue-300">
+        <h3 class="text-xl font-bold text-blue-800 mb-3">✅ AI Recommended Fertilizer</h3>
+
+        <p class="text-lg text-gray-700"><b>Best Fertilizer:</b> {{ rec_fert }}</p>
+        <p class="text-lg text-gray-700"><b>Predicted Yield:</b> {{ rec_pred }} kg/acre</p>
+
+        <p class="mt-3 text-xl font-bold text-blue-800">
+          Total Yield: {{ total_rec }} kg
+        </p>
+      </div>
+
+    </div>
+
+    <hr class="my-10 border-gray-300">
+
+    <!-- ✅ Improvement Analysis -->
+    <div class="bg-yellow-50 p-6 rounded-2xl border border-yellow-200 shadow">
+      <h3 class="text-2xl font-bold text-yellow-700 mb-3 flex items-center">
+        ⚡ Improvement Summary
+      </h3>
+
+      {% set improvement = rec_pred - farmer_pred %}
+      {% set percent = ((rec_pred - farmer_pred) / farmer_pred * 100) if farmer_pred > 0 else 0 %}
+
+      <p class="text-lg text-gray-700">
+        Yield Increase per Acre:
+        <b class="text-yellow-800">{{ improvement|round(2) }} kg/acre</b>
+      </p>
+
+      <p class="text-lg text-gray-700">
+        Percentage Boost:
+        <b class="text-yellow-800">{{ percent|round(2) }}%</b>
+      </p>
+
+      <p class="text-lg text-gray-700">
+        Additional Total Production:
+        <b class="text-yellow-800">{{ (total_rec - total_farmer)|round(2) }} kg</b>
+      </p>
+    </div>
+
+    <hr class="my-10 border-gray-300">
+
+    <!-- ✅ Charts Section -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+
+      <!-- Bar Chart -->
+      <div class="bg-white p-6 rounded-2xl shadow border">
+        <h3 class="text-center text-xl font-bold text-gray-800 mb-3">📊 Yield Comparison</h3>
+        <canvas id="barChart"></canvas>
+      </div>
+
+      <!-- Doughnut Chart -->
+      <div class="bg-white p-6 rounded-2xl shadow border">
+        <h3 class="text-center text-xl font-bold text-gray-800 mb-3">🍩 Improvement Ratio</h3>
+        <canvas id="doughnutChart"></canvas>
+      </div>
+
+    </div>
+
+    <!-- ✅ Input Summary -->
+    <div class="mt-12 p-6 bg-gray-50 rounded-2xl shadow border">
+      <h3 class="text-xl font-bold text-gray-900 mb-4">📋 Input Summary</h3>
+
+      <p class="text-gray-700"><b>State:</b> {{ request.form.state }}</p>
+      <p class="text-gray-700"><b>District:</b> {{ request.form.district }}</p>
+      <p class="text-gray-700"><b>Crop:</b> {{ request.form.crop }}</p>
+      <p class="text-gray-700"><b>Season:</b> {{ request.form.season }}</p>
+      <p class="text-gray-700"><b>Area:</b> {{ request.form.area }} acres</p>
+      <p class="text-gray-700"><b>Rainfall:</b> {{ request.form.annual_rainfall }} mm</p>
+      <p class="text-gray-700"><b>Temperature:</b> {{ request.form.avg_temperature }} °C</p>
+    </div>
+
+    <!-- ✅ Back Button -->
+    <div class="text-center mt-10">
+      <a href="/" class="px-6 py-3 bg-gray-700 text-white rounded-2xl shadow hover:bg-gray-900 transition">
+        🔙 Back to Prediction Page
+      </a>
+    </div>
+
+  </div>
+
+
+  <!-- ✅ JS for Charts -->
+  <script>
+    const farmerYield = {{ farmer_pred }};
+    const recommendedYield = {{ rec_pred }};
+    const improvement = recommendedYield - farmerYield;
+
+    // ⭐ Bar Chart
+    new Chart(document.getElementById('barChart'), {
+      type: 'bar',
+      data: {
+        labels: ['Farmer Fertilizer', 'Recommended Fertilizer'],
+        datasets: [{
+          data: [farmerYield, recommendedYield],
+          backgroundColor: ['#10B98180', '#3B82F680'],
+          borderColor: ['#10B981', '#2563EB'],
+          borderWidth: 2,
+          borderRadius: 8
+        }]
+      },
+      options: { responsive: true, plugins: { legend: { display: false } } }
+    });
+
+    // ⭐ Doughnut Chart
+    new Chart(document.getElementById('doughnutChart'), {
+      type: 'doughnut',
+      data: {
+        labels: ['Farmer Yield', 'Improvement'],
+        datasets: [{
+          data: [farmerYield, improvement],
+          backgroundColor: ['#34D399', '#FBBF24'],
+          hoverOffset: 10
+        }]
+      },
+      options: { responsive: true }
+    });
+  </script>
+
+</body>
+</html>
