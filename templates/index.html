@@ -36,7 +36,7 @@
         🌾 Smart Crop Yield Predictor
       </h1>
       <p class="text-gray-500 mt-2 text-lg">
-        Predict accurate crop yields using ML and real agricultural parameters.
+        Predict accurate crop yields using ML and live weather data 🌦️.
       </p>
     </div>
 
@@ -68,10 +68,41 @@
           }
         }
 
+        // 🌦️ Fetch live rainfall & temperature when district changes
+        async function autoFillWeather() {
+          const district = document.getElementById('district').value;
+          const rainfallInput = document.getElementById('avg_rainfall');
+          const tempInput = document.getElementById('avg_temperature');
+
+          if (!district) return;
+
+          try {
+            const response = await fetch('/get_weather', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ district })
+            });
+
+            const data = await response.json();
+
+            if (data.temperature !== null && data.rainfall !== null) {
+              tempInput.value = data.temperature;
+              rainfallInput.value = data.rainfall;
+            } else {
+              tempInput.value = '';
+              rainfallInput.value = '';
+              alert("⚠️ Live weather data not available for this district.");
+            }
+          } catch (error) {
+            console.error("Weather fetch error:", error);
+          }
+        }
+
         window.onload = () => {
           if (document.getElementById('state').value) {
             updateDistricts();
           }
+          document.getElementById('district').addEventListener('change', autoFillWeather);
         };
       </script>
 
@@ -80,7 +111,7 @@
 
         <!-- State -->
         <div>
-          <label class="font-semibold text-gray-700">🌍State *</label>
+          <label class="font-semibold text-gray-700">🌍 State *</label>
           <select id="state" name="state" 
             class="input-field bg-white p-3 rounded-xl border border-gray-300 w-full mt-1"
             required onchange="updateDistricts()">
@@ -93,7 +124,7 @@
 
         <!-- District -->
         <div>
-          <label class="font-semibold text-gray-700">🏙️District *</label>
+          <label class="font-semibold text-gray-700">🏙️ District *</label>
           <select id="district" name="district" 
             class="input-field p-3 rounded-xl border bg-gray-100 border-gray-300 w-full mt-1"
             required disabled>
@@ -103,7 +134,7 @@
 
         <!-- Crop -->
         <div>
-          <label class="font-semibold text-gray-700">🌾Crop *</label>
+          <label class="font-semibold text-gray-700">🌾 Crop *</label>
           <select id="crop" name="crop"
             class="input-field bg-white p-3 rounded-xl border border-gray-300 w-full mt-1" required>
             <option value="" disabled selected>Select Crop</option>
@@ -115,7 +146,7 @@
 
         <!-- Season -->
         <div>
-          <label class="font-semibold text-gray-700">🍂Season *</label>
+          <label class="font-semibold text-gray-700">🍂 Season *</label>
           <select id="season" name="season"
             class="input-field bg-white p-3 rounded-xl border border-gray-300 w-full mt-1" required>
             <option value="" disabled selected>Select Season</option>
@@ -127,7 +158,7 @@
 
         <!-- Year -->
         <div>
-          <label class="font-semibold text-gray-700">📅Year</label>
+          <label class="font-semibold text-gray-700">📅 Year</label>
           <input type="number" id="crop_year" name="crop_year"
             class="input-field bg-white p-3 rounded-xl border border-gray-300 w-full mt-1"
             placeholder="2024" min="2000" max="2050" required>
@@ -135,31 +166,31 @@
 
         <!-- Area -->
         <div>
-          <label class="font-semibold text-gray-700">📐Area (acres)</label>
+          <label class="font-semibold text-gray-700">📐 Area (acres)</label>
           <input type="number" id="area" name="area"
             class="input-field bg-white p-3 rounded-xl border border-gray-300 w-full mt-1"
             placeholder="Area in acres" step="0.01" required>
         </div>
 
-        <!-- Rainfall -->
+        <!-- Avg Rainfall -->
         <div>
-          <label class="font-semibold text-gray-700">🌧️Avg. Rainfall (mm)</label>
-          <input type="number" id="annual_rainfall" name="annual_rainfall"
+          <label class="font-semibold text-gray-700">🌧️ Avg. Rainfall (mm)</label>
+          <input type="number" id="avg_rainfall" name="avg_rainfall"
             class="input-field bg-white p-3 rounded-xl border border-gray-300 w-full mt-1"
-            placeholder="Average Rainfall in mm" step="0.01" required>
+            placeholder="Auto-filled live rainfall (mm)" step="0.01" readonly required>
         </div>
 
-        <!-- Temperature -->
+        <!-- Avg Temperature -->
         <div>
-          <label class="font-semibold text-gray-700">🌡️Avg. Temperature (°C)</label>
+          <label class="font-semibold text-gray-700">🌡️ Avg. Temperature (°C)</label>
           <input type="number" id="avg_temperature" name="avg_temperature"
             class="input-field bg-white p-3 rounded-xl border border-gray-300 w-full mt-1"
-            placeholder="Average Temperature" step="0.1" required>
+            placeholder="Auto-filled live temperature (°C)" step="0.1" readonly required>
         </div>
 
         <!-- Soil Type -->
         <div class="sm:col-span-2">
-          <label class="font-semibold text-gray-700">🌱Soil Type *</label>
+          <label class="font-semibold text-gray-700">🌱 Soil Type *</label>
           <select id="soil_type" name="soil_type"
             class="input-field bg-white p-3 rounded-xl border border-gray-300 w-full mt-1" required>
             <option value="" disabled selected>Select Soil Type</option>
@@ -171,7 +202,7 @@
 
         <!-- Pesticide -->
         <div class="sm:col-span-2">
-          <label class="font-semibold text-gray-700">🧪Pesticide *</label>
+          <label class="font-semibold text-gray-700">🧪 Pesticide *</label>
           <select id="pesticide_name" name="pesticide_name"
             class="input-field bg-white p-3 rounded-xl border border-gray-300 w-full mt-1" required>
             <option value="" disabled selected>Select Pesticide</option>

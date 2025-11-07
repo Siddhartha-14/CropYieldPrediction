@@ -3,8 +3,6 @@ from flask import Flask, render_template, request, jsonify
 import joblib
 import pandas as pd
 import numpy as np
-import requests  # ✅ For fetching live weather data
-
 
 import matplotlib
 matplotlib.use('Agg')   # ✅ FIX: Disable GUI backend
@@ -43,10 +41,7 @@ except:
     print("❌ MODEL NOT FOUND")
 
 
-
-
-
-# ✅ Build Input Safely (Handles missing numeric values)
+# ✅ Build Input
 def build_input(data_dict):
 
     model_cols = [
@@ -63,7 +58,7 @@ def build_input(data_dict):
         'crop_year': 'Year',
         'soil_type': 'Soil Type',
         'area': 'Area (acres)',
-        'annual_rainfall': 'Avg. Rainfall (mm)',   # or 'avg_rainfall' if renamed in HTML
+        'annual_rainfall': 'Avg. Rainfall (mm)',
         'pesticide_name': 'Pesticide Name',
         'avg_temperature': 'Avg. Temperature (°C)',
     }
@@ -71,15 +66,10 @@ def build_input(data_dict):
     final_input = {}
     for form_key, col_name in mapping.items():
         val = data_dict.get(form_key)
-
-        # 🧠 Safely handle empty values
         if col_name in ['State', 'District', 'Crop', 'Season', 'Pesticide Name', 'Soil Type']:
-            final_input[col_name] = str(val) if val else ""
+            final_input[col_name] = str(val)
         else:
-            try:
-                final_input[col_name] = float(val) if val not in [None, '', 'null'] else 0.0
-            except:
-                final_input[col_name] = 0.0
+            final_input[col_name] = float(val)
 
     df = pd.DataFrame([final_input], columns=model_cols)
     return df
@@ -110,63 +100,6 @@ def index():
         soil_types=unique_soil_types,
         state_district_map_json=state_district_map
     )
-
-# ✅ Get average annual rainfall and temperature using Open-Meteo Climate API
-@app.route('/get_weather', methods=['POST'])
-def get_weather():
-    data = request.get_json()
-    district = data.get("district")
-
-    if not district:
-        return jsonify({"rainfall": None, "temperature": None})
-
-    try:
-        # 1️⃣ Get coordinates (latitude, longitude) using OpenStreetMap (Nominatim)
-        geo_url = f"https://nominatim.openstreetmap.org/search?city={district}&country=India&format=json"
-        geo_response = requests.get(geo_url, headers={'User-Agent': 'CropYieldApp'}).json()
-
-        if not geo_response:
-            print(f"⚠️ No coordinates found for {district}")
-            return jsonify({"rainfall": None, "temperature": None})
-
-        lat = float(geo_response[0]["lat"])
-        lon = float(geo_response[0]["lon"])
-
-        # 2️⃣ Fetch climate averages from Open-Meteo (long-term data 1991–2020)
-        climate_url = (
-            f"https://climate-api.open-meteo.com/v1/climate?"
-            f"latitude={lat}&longitude={lon}"
-            f"&daily=temperature_2m_mean,precipitation_sum"
-            f"&start=1991-01-01&end=2020-12-31"
-        )
-
-        response = requests.get(climate_url)
-        climate_data = response.json()
-
-        # 🌧️ Compute average annual rainfall (mm/year)
-        if "daily" in climate_data and "precipitation_sum" in climate_data["daily"]:
-            rain_values = climate_data["daily"]["precipitation_sum"]
-            avg_rainfall = sum(rain_values) / len(rain_values)
-        else:
-            avg_rainfall = 0.0
-
-        # 🌡️ Compute average annual temperature (°C)
-        if "daily" in climate_data and "temperature_2m_mean" in climate_data["daily"]:
-            temp_values = climate_data["daily"]["temperature_2m_mean"]
-            avg_temp = sum(temp_values) / len(temp_values)
-        else:
-            avg_temp = 0.0
-
-        return jsonify({
-            "rainfall": round(avg_rainfall, 2),
-            "temperature": round(avg_temp, 1)
-        })
-
-    except Exception as e:
-        print("⚠️ Weather API Error:", e)
-        return jsonify({"rainfall": None, "temperature": None})
-
-
 
 
 # ✅ Prediction Route
